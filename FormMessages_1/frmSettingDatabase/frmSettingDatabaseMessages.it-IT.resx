@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTION_ERROR_LOG" xml:space="preserve">
+    <value>Utente: {0} | Schermata: Impostazioni database | Azione: {1} | Errore: {2}</value>
+  </data>
+  <data name="BTN_CREATE_BACKUP_ERROR_1" xml:space="preserve">
+    <value>Errore durante il tentativo di creare un backup crittografato</value>
+  </data>
+  <data name="BTN_CREATE_BACKUP_ERROR_2" xml:space="preserve">
+    <value>Crea backup crittografato</value>
+  </data>
+  <data name="BTN_CREATE_BACKUP_TEXT_1" xml:space="preserve">
+    <value>Creazione del backup</value>
+  </data>
+  <data name="BTN_CREATE_BACKUP_TEXT_2" xml:space="preserve">
+    <value>Seleziona una cartella in cui salvare il backup crittografato</value>
+  </data>
+  <data name="BTN_CREATE_BACKUP_TEXT_3" xml:space="preserve">
+    <value>sul pulsante Crea backup crittografato</value>
+  </data>
+  <data name="BTN_DELETE_SETTINGS_TEXT_1" xml:space="preserve">
+    <value>sul pulsante Elimina</value>
+  </data>
+  <data name="BTN_DUMP_FOLDER_TEXT_1" xml:space="preserve">
+    <value>Seleziona una cartella in cui salvare automaticamente il backup crittografato</value>
+  </data>
+  <data name="BTN_DUMP_FOLDER_TEXT_2" xml:space="preserve">
+    <value>sul pulsante per selezionare il percorso di backup automatico</value>
+  </data>
+  <data name="BTN_RESTORE_DUMP_ERROR_1" xml:space="preserve">
+    <value>Errore durante il tentativo di ripristino del backup crittografato</value>
+  </data>
+  <data name="BTN_RESTORE_DUMP_TEXT_3" xml:space="preserve">
+    <value>Ripristino del backup</value>
+  </data>
+  <data name="BTN_RESTORE_DUMP_TEXT_4" xml:space="preserve">
+    <value>Seleziona un file da ripristinare</value>
+  </data>
+  <data name="BTN_RESTORE_DUMP_TEXT_5" xml:space="preserve">
+    <value>Backup crittografati (*.encrypted)|*.encrypted</value>
+  </data>
+  <data name="BTN_RESTORE_DUMP_TEXT_6" xml:space="preserve">
+    <value>Fare clic sul pulsante Ripristina backup crittografato</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_ERROR_1" xml:space="preserve">
+    <value>Errore durante il salvataggio delle impostazioni di backup automatico</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_ERROR_2" xml:space="preserve">
+    <value>Errore</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_ERROR_3" xml:space="preserve">
+    <value>Errore durante il salvataggio delle impostazioni di backup automatico: il valore</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_ERROR_4" xml:space="preserve">
+    <value>impostato su Intervallo di backup automatico per utente</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_ERROR_5" xml:space="preserve">
+    <value>non è un numero intero compreso tra 0 e 90</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_ERROR_6" xml:space="preserve">
+    <value>L'intervallo di backup deve essere un numero intero,\r\ncompreso tra 1 e 90 (giorni)</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_ERROR_7" xml:space="preserve">
+    <value>Valore non valido</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_TEXT_1" xml:space="preserve">
+    <value>Le modifiche sono state salvate correttamente!\r\nRiavviare il software affinché le modifiche abbiano effetto.</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_TEXT_2" xml:space="preserve">
+    <value>Backup automatico</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_TEXT_3" xml:space="preserve">
+    <value>nel pulsante "Salva impostazioni" della sezione "Backup automatico"</value>
+  </data>
+  <data name="BTN_SAVE_CONFIG_TEXT_1" xml:space="preserve">
+    <value>Salva impostazioni</value>
+  </data>
+  <data name="BTN_SAVE_CONFIG_TEXT_2" xml:space="preserve">
+    <value>sul pulsante Salva</value>
+  </data>
+  <data name="BTN_TEST_CONNECTION_ERROR_1" xml:space="preserve">
+    <value>Errore durante il tentativo di testare la connessione al database.</value>
+  </data>
+  <data name="BTN_TEST_CONNECTION_ERROR_2" xml:space="preserve">
+    <value>Prova la connessione al database</value>
+  </data>
+  <data name="BTN_TEST_CONNECTION_TEXT_1" xml:space="preserve">
+    <value>Problema durante il tentativo di ottenere i dati di connessione al database</value>
+  </data>
+  <data name="BTN_TEST_CONNECTION_TEXT_2" xml:space="preserve">
+    <value>Problema durante il tentativo di connessione al database</value>
+  </data>
+  <data name="BTN_TEST_CONNECTION_TEXT_3" xml:space="preserve">
+    <value>Connessione al database riuscita!</value>
+  </data>
+  <data name="BTN_TEST_CONNECTION_TEXT_4" xml:space="preserve">
+    <value>Test di connessione al database completato con successo.</value>
+  </data>
+  <data name="BTN_TEST_CONNECTION_TEXT_5" xml:space="preserve">
+    <value>sul pulsante Test Connessione</value>
+  </data>
+  <data name="CHK_AUTO_DUMP_STATUS_1" xml:space="preserve">
+    <value>Disabilitato</value>
+  </data>
+  <data name="CHK_AUTO_DUMP_STATUS_2" xml:space="preserve">
+    <value>Abilitato</value>
+  </data>
+  <data name="CONFIG_TITLE_1" xml:space="preserve">
+    <value>Database - Impostazioni</value>
+  </data>
+  <data name="CONFIG_TITLE_2" xml:space="preserve">
+    <value>Ripristina backup crittografato</value>
+  </data>
+  <data name="CREATE_BACKUP_PROCESS_TEXT_1" xml:space="preserve">
+    <value>Creato backup crittografato sul percorso</value>
+  </data>
+  <data name="CREATE_ENCRYPTED_BACKUP_DIALOG_PROMPT" xml:space="preserve">
+    <value>Vuoi creare un backup crittografato su {0}?</value>
+  </data>
+  <data name="CREATE_ENCRYPTED_BACKUP_DIALOG_TITLE" xml:space="preserve">
+    <value>Crea backup crittografato</value>
+  </data>
+  <data name="FORM_LOAD_ERROR_1" xml:space="preserve">
+    <value>Errore nella visualizzazione dei dati del dispositivo nella schermata di configurazione.</value>
+  </data>
+  <data name="FORM_LOAD_TEXT_1" xml:space="preserve">
+    <value>Dati del dispositivo caricati nella schermata di configurazione.</value>
+  </data>
+  <data name="IMPORT_BACKUP_PROCESS_TEXT_1" xml:space="preserve">
+    <value>Backup crittografato ripristinato del file</value>
+  </data>
+  <data name="MSGBOX_ACTION_LIMITED_ALLOWED" xml:space="preserve">
+    <value>Il tuo livello di accesso [{0}] non dispone dell'autorizzazione per eseguire tutte le azioni in questo modulo</value>
+  </data>
+  <data name="MSGBOX_ACTION_NOT_ALLOWED" xml:space="preserve">
+    <value>Il tuo livello di accesso [{0}] non ti consente di eseguire questa azione.</value>
+  </data>
+  <data name="MSGBOX_DELETE_DATA_ERROR_1" xml:space="preserve">
+    <value>Errore durante il tentativo di eliminazione dei dati dal database!</value>
+  </data>
+  <data name="MSGBOX_DELETE_DATA_ERROR_2" xml:space="preserve">
+    <value>Elimina i dati per periodo</value>
+  </data>
+  <data name="MSGBOX_LOAD_DATA_ERROR" xml:space="preserve">
+    <value>Errore durante il tentativo di caricare i dati di configurazione dal database!</value>
+  </data>
+  <data name="MSGBOX_SAVE_DATA_ERROR" xml:space="preserve">
+    <value>Errore durante il tentativo di scrittura dei dati di configurazione del database!</value>
+  </data>
+  <data name="NETWORK_CONNCETION_ERROR_1" xml:space="preserve">
+    <value>Impossibile ottenere i dati di connessione al database</value>
+  </data>
+  <data name="NETWORK_CONNCETION_ERROR_2" xml:space="preserve">
+    <value>Impossibile ottenere i dati di connessione</value>
+  </data>
+  <data name="RESTORE_ENCRYPTED_BACKUP_DIALOG_TITLE" xml:space="preserve">
+    <value>Ripristina il backup crittografato</value>
+  </data>
+  <data name="SAVE_DEVICES_PROCESS_TEXT_1" xml:space="preserve">
+    <value>Le modifiche sono state salvate correttamente!\r\nRiavviare il software affinché le modifiche abbiano effetto.</value>
+  </data>
+  <data name="USER_ACTION_LOG" xml:space="preserve">
+    <value>Utente: {0} | Schermata: Impostazioni database | Azione: {1}</value>
+  </data>
+  <data name="USER_CLICK_LOG" xml:space="preserve">
+    <value>Utente: {0} | Schermata: Impostazioni database | Azione: cliccato {1}</value>
+  </data>
+  <data name="USER_SAVED_SETTINGS_LOG" xml:space="preserve">
+    <value>Utente: {0} | Schermata: Impostazioni database - Backup automatico | Azione: Impostazioni salvate: {1}</value>
+  </data>
+</root>

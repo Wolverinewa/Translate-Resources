@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AURORA_CONNECTION_ERROR" xml:space="preserve">
+    <value>Error connecting to WS Aurora.\nPlease check the connection and try again.</value>
+  </data>
+  <data name="AURORA_CONNECTION_ERROR_TITLE" xml:space="preserve">
+    <value>WS Aurora - Connection Status</value>
+  </data>
+  <data name="BTN_AURORA_SAVE_TEXT_1" xml:space="preserve">
+    <value>on the Save button - WS Aurora</value>
+  </data>
+  <data name="BTN_TOLEDO_SAVE_TEXT_1" xml:space="preserve">
+    <value>on the Test Connection button - WS Toledo</value>
+  </data>
+  <data name="BTN_WS_AURORA_TEST_TEXT_1" xml:space="preserve">
+    <value>on the Test Connection button - WS Aurora</value>
+  </data>
+  <data name="BTN_WS_TOLEDO_TEST_TEXT_1" xml:space="preserve">
+    <value>on the Test Connection button - WS Toledo</value>
+  </data>
+  <data name="CONFIG_TITLE_1" xml:space="preserve">
+    <value>WS Toledo - Settings</value>
+  </data>
+  <data name="CONFIG_TITLE_2" xml:space="preserve">
+    <value>WS Aurora - Settings</value>
+  </data>
+  <data name="FORM_LOAD_ERROR_1" xml:space="preserve">
+    <value>Error displaying WS data on setup screen.</value>
+  </data>
+  <data name="FORM_LOAD_TEXT_1" xml:space="preserve">
+    <value>WS data loaded into the setup screen.</value>
+  </data>
+  <data name="MSGBOX_ACTION_LIMITED_ALLOWED" xml:space="preserve">
+    <value>Your access level [{0}] does not allow you to perform all actions on this form.</value>
+  </data>
+  <data name="MSGBOX_ACTION_NOT_ALLOWED" xml:space="preserve">
+    <value>Your access level [{0}] does not allow you to perform this action.</value>
+  </data>
+  <data name="MSG_ERROR_TEXT_1" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="SAVE_PROCESS_TEXT_1" xml:space="preserve">
+    <value>Settings saved successfully!</value>
+  </data>
+  <data name="TOLEDO_CONNECTION_ERROR" xml:space="preserve">
+    <value>Error connecting to WS Toledo.\nPlease check the connection and try again.</value>
+  </data>
+  <data name="TOLEDO_CONNECTION_ERROR_TITLE" xml:space="preserve">
+    <value>WS Toledo - Connection Status</value>
+  </data>
+  <data name="USER_CLICK_LOG" xml:space="preserve">
+    <value>Web Services Screen - User {0} clicked {1}</value>
+  </data>
+</root>

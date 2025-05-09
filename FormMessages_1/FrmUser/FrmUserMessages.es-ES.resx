@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ADD_USER_LOG" xml:space="preserve">
+    <value>Usuario: {0} | Pantalla: Usuarios | Acción:Añadido | Nombre completo: {1}, Nombre de usuario: {2}, Nivel de acceso: {3}, {4}</value>
+  </data>
+  <data name="BTN_SAVE_USER_TEXT_1" xml:space="preserve">
+    <value>Nombre de usuario no estándar.</value>
+  </data>
+  <data name="BTN_SAVE_USER_TEXT_2" xml:space="preserve">
+    <value>Contraseña no estándar.</value>
+  </data>
+  <data name="BTN_SAVE_USER_TEXT_3" xml:space="preserve">
+    <value>Nombre/inicio de sesión no estándar.</value>
+  </data>
+  <data name="BTN_SAVE_USER_TEXT_4" xml:space="preserve">
+    <value>Ahorrar</value>
+  </data>
+  <data name="BTN_USER_EXPIRE_TEXT_1" xml:space="preserve">
+    <value>El usuario NO caduca</value>
+  </data>
+  <data name="BTN_USER_EXPIRE_TEXT_2" xml:space="preserve">
+    <value>El usuario caduca</value>
+  </data>
+  <data name="BTN_USER_STATUS_1" xml:space="preserve">
+    <value>Desactivado</value>
+  </data>
+  <data name="BTN_USER_STATUS_2" xml:space="preserve">
+    <value>Activado</value>
+  </data>
+  <data name="CONFIRM_PASSWORD_INCORRECT" xml:space="preserve">
+    <value>Confirmación de contraseña incorrecta</value>
+  </data>
+  <data name="DG_USER_TEXT_1" xml:space="preserve">
+    <value>Se recuperó el registro de usuario {0} para su edición.</value>
+  </data>
+  <data name="ERROR_TITLE" xml:space="preserve">
+    <value>Datos incorrectos</value>
+  </data>
+  <data name="FULLNAME_INVALID_LENGTH_MAX" xml:space="preserve">
+    <value>El nombre completo debe tener un máximo de 50 caracteres.</value>
+  </data>
+  <data name="FULLNAME_INVALID_LENGTH_MIN" xml:space="preserve">
+    <value>El nombre completo debe tener al menos 5 caracteres.</value>
+  </data>
+  <data name="INVALID_DATE_FORMAT" xml:space="preserve">
+    <value>Introduzca una fecha válida en formato DD/MM/AA</value>
+  </data>
+  <data name="LOAD_USER_LOG" xml:space="preserve">
+    <value>Usuario: {0} | Pantalla: Usuarios | Acción: Cargado | Nombre completo: {1}, Nombre de usuario: {2}, Nivel de acceso: {3}, {4}</value>
+  </data>
+  <data name="MSGBOX_ACTION_LIMITED_ALLOWED" xml:space="preserve">
+    <value>Su nivel de acceso [{0}] no le permite realizar todas las acciones en este formulario.</value>
+  </data>
+  <data name="MSGBOX_ACTION_NOT_ALLOWED" xml:space="preserve">
+    <value>Su nivel de acceso [{0}] no le permite realizar esta acción.</value>
+  </data>
+  <data name="NO_TEXT_1" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NULL_DATA_USER_PASS" xml:space="preserve">
+    <value>Introduzca su nombre de usuario y contraseña.</value>
+  </data>
+  <data name="PASSWORD_INCORRECT_FORMAT" xml:space="preserve">
+    <value>La contraseña no se ajusta al estándar establecido. Por favor, introduzca una nueva contraseña</value>
+  </data>
+  <data name="PASSWORD_INVALID_CHARACTERS" xml:space="preserve">
+    <value>La contraseña debe contener únicamente letras, números y los caracteres $*&amp;@#!</value>
+  </data>
+  <data name="PASSWORD_INVALID_LENGTH_MAX" xml:space="preserve">
+    <value>La contraseña debe tener como máximo 20 caracteres.</value>
+  </data>
+  <data name="PASSWORD_INVALID_LENGTH_MIN" xml:space="preserve">
+    <value>La contraseña debe tener al menos 6 caracteres.</value>
+  </data>
+  <data name="PASSWORD_MUST_CONTAIN_ONE_LOWERCASE_LETTER" xml:space="preserve">
+    <value>La contraseña debe contener al menos una letra minúscula</value>
+  </data>
+  <data name="PASSWORD_MUST_CONTAIN_ONE_SPECIAL_CHARACTERS" xml:space="preserve">
+    <value>La contraseña debe contener al menos un carácter especial</value>
+  </data>
+  <data name="PASSWORD_MUST_CONTAIN_ONE_UPPERCASE_LETTER" xml:space="preserve">
+    <value>La contraseña debe contener al menos una letra mayúscula</value>
+  </data>
+  <data name="SAVE_USER_LOG" xml:space="preserve">
+    <value>Usuario: {0} | Pantalla: Usuarios | Acción: Cambiado | Nombre completo: {1}, Nombre de usuario: {2}, Contraseña {3} cambiada, Nivel de acceso: {4}, {5}</value>
+  </data>
+  <data name="UPDATE_USER_QUESTION" xml:space="preserve">
+    <value>¿Está seguro de que desea actualizar el registro de usuario?</value>
+  </data>
+  <data name="UPDATE_USER_QUESTION_TITLE" xml:space="preserve">
+    <value>Actualizar usuario</value>
+  </data>
+  <data name="USERACCESS_NONE" xml:space="preserve">
+    <value>No se seleccionó ningún acceso</value>
+  </data>
+  <data name="USERNAME_INVALID_LENGTH_MAX" xml:space="preserve">
+    <value>El nombre de usuario debe tener un máximo de 20 caracteres.</value>
+  </data>
+  <data name="USERNAME_INVALID_LENGTH_MIN" xml:space="preserve">
+    <value>El nombre de usuario debe tener al menos 4 caracteres</value>
+  </data>
+  <data name="USERNAME_INVALID_LOGIN" xml:space="preserve">
+    <value>El nombre de usuario debe contener únicamente letras, números o guiones bajos.</value>
+  </data>
+  <data name="USERNAME_IN_USE" xml:space="preserve">
+    <value>El nombre de usuario ya está en uso</value>
+  </data>
+  <data name="USER_CLICK_LOG" xml:space="preserve">
+    <value>Usuario: {0} | Pantalla: Usuarios | Acción: se hizo clic en {1}</value>
+  </data>
+</root>

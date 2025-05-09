@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="APPROVAL_MESSAGE_BASE" xml:space="preserve">
+    <value>Artículo aprobado | {0}</value>
+  </data>
+  <data name="AUTO_BACKUP_ERROR_1" xml:space="preserve">
+    <value>Copia de seguridad automática no realizada - Error</value>
+  </data>
+  <data name="AUTO_BACKUP_TEXT_1" xml:space="preserve">
+    <value>Copia de seguridad automática no realizada: la configuración de copia de seguridad automática (SystemSettings.DatabaseManagementSettings) no está definida</value>
+  </data>
+  <data name="AUTO_BACKUP_TEXT_2" xml:space="preserve">
+    <value>Copia de seguridad automática deshabilitada. Operación no realizada.</value>
+  </data>
+  <data name="AUTO_BACKUP_TEXT_3" xml:space="preserve">
+    <value>Copia de seguridad automática no realizada: intervalo desde la última copia de seguridad</value>
+  </data>
+  <data name="AUTO_BACKUP_TEXT_4" xml:space="preserve">
+    <value>día</value>
+  </data>
+  <data name="AUTO_BACKUP_TEXT_5" xml:space="preserve">
+    <value>días</value>
+  </data>
+  <data name="AUTO_BACKUP_TEXT_6" xml:space="preserve">
+    <value>es inferior al configurado</value>
+  </data>
+  <data name="BACKUP_ACTION_ERROR_1" xml:space="preserve">
+    <value>Error al realizar copia de seguridad automática de la base de datos</value>
+  </data>
+  <data name="BACKUP_ACTION_TEXT_1" xml:space="preserve">
+    <value>Copia de seguridad automática realizada con éxito en</value>
+  </data>
+  <data name="BARCODE_DATAMATRIX_MISMATCH_ERROR" xml:space="preserve">
+    <value>El código de barras y la matriz de datos no coinciden</value>
+  </data>
+  <data name="BATCH_MISMATCH_ERROR" xml:space="preserve">
+    <value>El lote de Datamatrix no coincide con la producción</value>
+  </data>
+  <data name="CAMERA_GROUP_READ_MESSAGE" xml:space="preserve">
+    <value>CÁMARA {0} - DATOS RECIBIDOS - {1}</value>
+  </data>
+  <data name="CAMERA_READ_MESSAGE" xml:space="preserve">
+    <value>CÁMARA 1 - DATOS RECIBIDOS - {0}</value>
+  </data>
+  <data name="CREATE_FIFO_ENTRY_TEXT_1" xml:space="preserve">
+    <value>Error al extraer datos</value>
+  </data>
+  <data name="CREATE_LABELS_DICTIONARY_ERROR" xml:space="preserve">
+    <value>Error al crear el diccionario de etiquetas</value>
+  </data>
+  <data name="CREATE_PRODUCTIONS_ERROR" xml:space="preserve">
+    <value>Error al crear elementos de producción</value>
+  </data>
+  <data name="CREATE_PRODUCTION_ORDER_ERROR" xml:space="preserve">
+    <value>Error al crear orden de producción</value>
+  </data>
+  <data name="EAN13_MISMATCH_ERROR" xml:space="preserve">
+    <value>El EAN13 en la etiqueta no coincide con el producto</value>
+  </data>
+  <data name="EMPTY_BARCODE_ERROR" xml:space="preserve">
+    <value>Código de barras no leído</value>
+  </data>
+  <data name="EMPTY_DATAMATRIX_ERROR" xml:space="preserve">
+    <value>Matriz de datos no leídos</value>
+  </data>
+  <data name="ERROR_ASSIGN_REJECT_REASON" xml:space="preserve">
+    <value>Error al registrar el defecto</value>
+  </data>
+  <data name="EVALUATE_FIFO_ITEM_MESSAGE" xml:space="preserve">
+    <value>COMPROBACIÓN DE RECHAZO FIFO - {0}</value>
+  </data>
+  <data name="EVALUETE_FIRST_FIFO_ITEM_TEXT_1" xml:space="preserve">
+    <value>Inicio del método</value>
+  </data>
+  <data name="EVALUETE_FIRST_FIFO_ITEM_TEXT_10" xml:space="preserve">
+    <value>Fin del método</value>
+  </data>
+  <data name="EVALUETE_FIRST_FIFO_ITEM_TEXT_2" xml:space="preserve">
+    <value>Artículo extraído de</value>
+  </data>
+  <data name="EVALUETE_FIRST_FIFO_ITEM_TEXT_3" xml:space="preserve">
+    <value>Artículo aprobado</value>
+  </data>
+  <data name="EVALUETE_FIRST_FIFO_ITEM_TEXT_4" xml:space="preserve">
+    <value>Aprobado</value>
+  </data>
+  <data name="EVALUETE_FIRST_FIFO_ITEM_TEXT_5" xml:space="preserve">
+    <value>Artículo rechazado</value>
+  </data>
+  <data name="EVALUETE_FIRST_FIFO_ITEM_TEXT_6" xml:space="preserve">
+    <value>Grabado</value>
+  </data>
+  <data name="EVALUETE_FIRST_FIFO_ITEM_TEXT_7" xml:space="preserve">
+    <value>Estado de lectura de la cámara</value>
+  </data>
+  <data name="EVALUETE_FIRST_FIFO_ITEM_TEXT_8" xml:space="preserve">
+    <value>Rechazado</value>
+  </data>
+  <data name="EVALUETE_FIRST_FIFO_ITEM_TEXT_9" xml:space="preserve">
+    <value>Lectura</value>
+  </data>
+  <data name="EXPIRATION_DATE_MISMATCH_ERROR" xml:space="preserve">
+    <value>La fecha de vencimiento de Datamatrix no coincide con la producción</value>
+  </data>
+  <data name="EXTRACT_PRINT_DATA_FROM_SEARCH_KEY_ERROR_1" xml:space="preserve">
+    <value>Método de generación de etiquetas no reconocido</value>
+  </data>
+  <data name="FIFO_VALIDATION_BY_CAMERA_STATUS_TEXT_1" xml:space="preserve">
+    <value>APROBADO | {0}</value>
+  </data>
+  <data name="FIFO_VALIDATION_BY_CAMERA_STATUS_TEXT_2" xml:space="preserve">
+    <value>RECHAZADO | {0}</value>
+  </data>
+  <data name="FIFO_VALIDATION_BY_CAMERA_STATUS_TEXT_3" xml:space="preserve">
+    <value>etiqueta</value>
+  </data>
+  <data name="GENERATE_EPC_TEXT_1" xml:space="preserve">
+    <value>CREACIÓN DEL EPC – Inicio del Método</value>
+  </data>
+  <data name="GENERATE_EPC_TEXT_2" xml:space="preserve">
+    <value>CREACIÓN DE EPC - Generación secuencial</value>
+  </data>
+  <data name="GENERATE_EPC_TEXT_3" xml:space="preserve">
+    <value>CREACIÓN DE EPC - Epc generado</value>
+  </data>
+  <data name="GENERATE_EPC_TEXT_4" xml:space="preserve">
+    <value>Fin del método</value>
+  </data>
+  <data name="GENERATE_LABEL_TEXT_1" xml:space="preserve">
+    <value>No hay artículos disponibles para el consumo del artículo leído.</value>
+  </data>
+  <data name="GENERIC_ALARM_ERROR" xml:space="preserve">
+    <value>Comprobación de errores en las señales de alarma</value>
+  </data>
+  <data name="GET_PRINTER_ALARM_AND_DOWNTIME_TYPES_TEXT_1" xml:space="preserve">
+    <value>Tipo de impresora no disponible, no se pudo generar alarma por desconexión</value>
+  </data>
+  <data name="IDENTIFIER_MISMATCH_ERROR" xml:space="preserve">
+    <value>El sublote de Datamatrix no coincide con la producción</value>
+  </data>
+  <data name="INCREMENT_RFID_CONSECUTIVE_REJECTS_TEXT_1" xml:space="preserve">
+    <value>Detenido por {0} rechazos consecutivos</value>
+  </data>
+  <data name="INITIAL_PRINT_BUFFER_TEXT_1" xml:space="preserve">
+    <value>InitialPrintBufferAsync: envía el búfer inicial a la impresora</value>
+  </data>
+  <data name="INITIAL_PRINT_BUFFER_TEXT_2" xml:space="preserve">
+    <value>etiquetas</value>
+  </data>
+  <data name="INVALID_PAYLOAD_TYPE" xml:space="preserve">
+    <value>Tipo de carga útil no válido: {0}</value>
+  </data>
+  <data name="LABELER_VALIDATION_READER" xml:space="preserve">
+    <value>Lector de la Conferencia | Serie: {0} | {1}</value>
+  </data>
+  <data name="LABELER_VALIDATION_READER_ERROR" xml:space="preserve">
+    <value>Aplicación de comprobación de errores</value>
+  </data>
+  <data name="LOAD_PRINT_LIST_FROM_PRODUCTION_ORDER_ID_ERROR_1" xml:space="preserve">
+    <value>Error al cargar la orden de producción</value>
+  </data>
+  <data name="MULTIPLE_UNIQUE_LABELS_TEXT_1" xml:space="preserve">
+    <value>Recibiendo carga útil a través del socket...</value>
+  </data>
+  <data name="MULTIPLE_UNIQUE_LABELS_TEXT_2" xml:space="preserve">
+    <value>Carga útil recibida con éxito</value>
+  </data>
+  <data name="MULTIPLE_UNIQUE_LABELS_TEXT_3" xml:space="preserve">
+    <value>etiquetas</value>
+  </data>
+  <data name="NO_AVAILABLE_ITEMS_MESSAGE" xml:space="preserve">
+    <value>No hay elementos para verificar en la lista.</value>
+  </data>
+  <data name="NO_ITEM_TO_VALIDATE" xml:space="preserve">
+    <value>Cámara de conferencia: No hay elementos para verificar</value>
+  </data>
+  <data name="NO_READ" xml:space="preserve">
+    <value>No leído</value>
+  </data>
+  <data name="NO_READ_ALARM_LOG_MESSAGE" xml:space="preserve">
+    <value>ALARMA: Buzón sin leer | Celda {0} Fila {1}</value>
+  </data>
+  <data name="NULL_PAYLOAD_TYPE" xml:space="preserve">
+    <value>Tipo de carga útil no proporcionado</value>
+  </data>
+  <data name="PAYLOAD_CONSUMPTION_ERROR_1" xml:space="preserve">
+    <value>Error al generar etiqueta</value>
+  </data>
+  <data name="PAYLOAD_CONSUMPTION_TEXT_1" xml:space="preserve">
+    <value>Cámara de entrada - No se encontró ninguna producción para esta</value>
+  </data>
+  <data name="PAYLOAD_CONSUMPTION_TEXT_2" xml:space="preserve">
+    <value>Corrección de error en tb_production_info</value>
+  </data>
+  <data name="PAYLOAD_CONSUMPTION_TEXT_3" xml:space="preserve">
+    <value>Artículo no identificado</value>
+  </data>
+  <data name="PIXEL_COUNT_CHECK_TEXT_1" xml:space="preserve">
+    <value>Lector de validación - Recuento de píxeles de la etiqueta: El lector no envió ningún valor coincidente</value>
+  </data>
+  <data name="PIXEL_COUNT_CHECK_TEXT_2" xml:space="preserve">
+    <value>Lector de validación: recuento de píxeles de la etiqueta: el lector no envió valores coincidentes</value>
+  </data>
+  <data name="PROCESS_SELECTED_VALIDATION_READER_DATA_ERROR_1" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="PROCESS_SELECTED_VALIDATION_READER_DATA_TEXT_1" xml:space="preserve">
+    <value>No hay artículos en la cola</value>
+  </data>
+  <data name="PROCESS_SELECTED_VALIDATION_READER_DATA_TEXT_2" xml:space="preserve">
+    <value>Contenido de código de barras no válido</value>
+  </data>
+  <data name="PROCESS_SELECTED_VALIDATION_READER_DATA_TEXT_3" xml:space="preserve">
+    <value>El artículo esperado no contiene</value>
+  </data>
+  <data name="PROCESS_SELECTED_VALIDATION_READER_DATA_TEXT_4" xml:space="preserve">
+    <value>Análisis de calidad</value>
+  </data>
+  <data name="PROCESS_SELECTED_VALIDATION_READER_DATA_TEXT_5" xml:space="preserve">
+    <value>Clave de extracción no leída</value>
+  </data>
+  <data name="PRODUCTION_DATE_MISMATCH_ERROR" xml:space="preserve">
+    <value>La fecha de producción de Datamatrix no coincide con la producción</value>
+  </data>
+  <data name="RECEIVED_CAMERA_DATA_CAMERA_GROUP_TEXT_1" xml:space="preserve">
+    <value>La producción no ha comenzado</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_1" xml:space="preserve">
+    <value>GESTIÓN DEL BÚFER RFID</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_10" xml:space="preserve">
+    <value>y</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_11" xml:space="preserve">
+    <value>actualizado</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_12" xml:space="preserve">
+    <value>Grabado</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_13" xml:space="preserve">
+    <value>Operación de extracción de búfer no realizada: búfer puesto a cero</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_2" xml:space="preserve">
+    <value>Inicio del método</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_3" xml:space="preserve">
+    <value>eliminado exitosamente de FIFO</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_4" xml:space="preserve">
+    <value>No se pudo eliminar el epc de fifo</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_5" xml:space="preserve">
+    <value>Elemento extraído para grabación</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_6" xml:space="preserve">
+    <value>IGUAL a</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_7" xml:space="preserve">
+    <value>DIFERENTE de</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_8" xml:space="preserve">
+    <value>Lectura RFID - EPC a grabar</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_9" xml:space="preserve">
+    <value>leer después de grabar</value>
+  </data>
+  <data name="REJECT_MESSAGE_BASE" xml:space="preserve">
+    <value>Artículo rechazado | {0}</value>
+  </data>
+  <data name="REJECT_REASON_ASSIGNED" xml:space="preserve">
+    <value>Defecto registrado | Serie: {0} | Razón: {1}</value>
+  </data>
+  <data name="REPLACE_PRINT_VARIABLES_TEXT_1" xml:space="preserve">
+    <value>REEMPLAZAR VARIABLES DE IMPRESIÓN - Inicio del método</value>
+  </data>
+  <data name="REPLACE_PRINT_VARIABLES_TEXT_2" xml:space="preserve">
+    <value>REEMPLAZAR VARIABLES DE IMPRESIÓN - Fin del método - Script generado</value>
+  </data>
+  <data name="SERIAL_NOT_FOUND" xml:space="preserve">
+    <value>Número de serie no encontrado</value>
+  </data>
+  <data name="SIGNAL_RECEIVED_MESSAGE" xml:space="preserve">
+    <value>LECTURA PLC - Señal: '{0}' - Valor: '{1}'</value>
+  </data>
+  <data name="START_PRODUCTION_MODE_TEXT_1" xml:space="preserve">
+    <value>MÉTODO DE PRODUCCIÓN INICIADO - Producto</value>
+  </data>
+  <data name="START_PRODUCTION_MODE_TEXT_2" xml:space="preserve">
+    <value>Operador</value>
+  </data>
+  <data name="START_TEST_MODE_TEXT_1" xml:space="preserve">
+    <value>MODO DE PRUEBA INICIADO</value>
+  </data>
+  <data name="START_TEST_MODE_TEXT_2" xml:space="preserve">
+    <value>Tiempo de ciclo transcurrido: {0}</value>
+  </data>
+  <data name="START_TEST_MODE_TEXT_3" xml:space="preserve">
+    <value>MODO DE PRUEBA INTERRUMPIDO</value>
+  </data>
+  <data name="SYSTEM_ACTION_LOG" xml:space="preserve">
+    <value>Usuario: {0} | Acción del sistema: {1}</value>
+  </data>
+  <data name="SYSTEM_ERROR_LOG" xml:space="preserve">
+    <value>Usuario: {0} | Error: {1}</value>
+  </data>
+  <data name="TEST_INITIAL_PRINTER_CONNECTION_TEXT_1" xml:space="preserve">
+    <value>Impresora no conectada</value>
+  </data>
+  <data name="UNAVAILABLE_SERIAL" xml:space="preserve">
+    <value>No disponible</value>
+  </data>
+  <data name="VALIDATION_FRO_PRINT_LABELS_LIST_ERROR_1" xml:space="preserve">
+    <value>Error al procesar la lectura de la conferencia</value>
+  </data>
+  <data name="VALIDATION_FRO_PRINT_LABELS_LIST_TEXT_1" xml:space="preserve">
+    <value>Orden de producción</value>
+  </data>
+  <data name="VALIDATION_FRO_PRINT_LABELS_LIST_TEXT_2" xml:space="preserve">
+    <value>terminado. Refinamiento...</value>
+  </data>
+  <data name="VALIDATION_FRO_PRINT_LABELS_LIST_TEXT_3" xml:space="preserve">
+    <value>Completado automáticamente</value>
+  </data>
+  <data name="WEIGHT_ABOVE_MAX_PRINT_MESSAGE" xml:space="preserve">
+    <value>Peso [{0}kg] por encima del máximo para el producto</value>
+  </data>
+  <data name="WEIGHT_BELOW_MIN_PRINT_MESSAGE" xml:space="preserve">
+    <value>Peso [{0}kg] por debajo del mínimo para el producto</value>
+  </data>
+</root>

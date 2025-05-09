@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="APPLICATOR_PRESET_LOG" xml:space="preserve">
+    <value>Recipe submitted: Speed ​​{0}, Size {1}, Delay {2}, Accel Ramp {3}, Dec Ramp {4}, Filter {5}</value>
+  </data>
+  <data name="CONNECTION_TEXT_1" xml:space="preserve">
+    <value>Error connecting to plc</value>
+  </data>
+  <data name="CREATE_HANDLES_TEXT_1" xml:space="preserve">
+    <value>Error creating handles</value>
+  </data>
+  <data name="LOGS_RECEIVED_MACHINE_DATA_ERROR_1" xml:space="preserve">
+    <value>Error processing PLC data</value>
+  </data>
+  <data name="LOGS_RECEIVED_MACHINE_DATA_TEXT_1" xml:space="preserve">
+    <value>DATA RECEIVED FROM PLC:</value>
+  </data>
+  <data name="LOGS_RECEIVED_MACHINE_DATA_TEXT_2" xml:space="preserve">
+    <value>Internal variable</value>
+  </data>
+  <data name="LOGS_RECEIVED_MACHINE_DATA_TEXT_3" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="LOGS_RECEIVED_MACHINE_DATA_TEXT_4" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="LOGS_RECEIVED_MACHINE_DATA_TEXT_5" xml:space="preserve">
+    <value>PLC variable</value>
+  </data>
+  <data name="LOGS_RECEIVED_MACHINE_DATA_TEXT_6" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="PLC_CONNECTED_MESSAGE" xml:space="preserve">
+    <value>Connected PLC</value>
+  </data>
+  <data name="PLC_NOT_CONNECTED_MESSAGE" xml:space="preserve">
+    <value>PLC Not Connected</value>
+  </data>
+  <data name="PLC_WRITE_LOG_MESSAGE" xml:space="preserve">
+    <value>WRITINGS IN THE PLC - CELL = {0}\r\n{1}</value>
+  </data>
+  <data name="SENT_DATA_TO_PLC" xml:space="preserve">
+    <value>SEND TO PLC - FUNCTION: {0} | DataBlock: {1} | Address: {2}.{3} | Value: {4}</value>
+  </data>
+  <data name="START_LIFE_BIT_TEXT_1" xml:space="preserve">
+    <value>Lifebit writing started</value>
+  </data>
+  <data name="START_LIFE_BIT_TEXT_2" xml:space="preserve">
+    <value>Lifebit writing finished</value>
+  </data>
+  <data name="WRITE_BOOLS_TO_PLC_ERROR_1" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="WRITE_BOOLS_TO_PLC_TEXT_1" xml:space="preserve">
+    <value>START OF THE METHOD</value>
+  </data>
+  <data name="WRITE_BOOLS_TO_PLC_TEXT_10" xml:space="preserve">
+    <value>success in sending the writing.| Value</value>
+  </data>
+  <data name="WRITE_BOOLS_TO_PLC_TEXT_11" xml:space="preserve">
+    <value>successful sending of the writing. Success in processing the PLC - Attempt</value>
+  </data>
+  <data name="WRITE_BOOLS_TO_PLC_TEXT_12" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="WRITE_BOOLS_TO_PLC_TEXT_13" xml:space="preserve">
+    <value>success in sending the writing. PLC processing failure - Attempt</value>
+  </data>
+  <data name="WRITE_BOOLS_TO_PLC_TEXT_14" xml:space="preserve">
+    <value>Value after writing</value>
+  </data>
+  <data name="WRITE_BOOLS_TO_PLC_TEXT_15" xml:space="preserve">
+    <value>END OF METHOD</value>
+  </data>
+  <data name="WRITE_BOOLS_TO_PLC_TEXT_2" xml:space="preserve">
+    <value>Writing the variable</value>
+  </data>
+  <data name="WRITE_BOOLS_TO_PLC_TEXT_3" xml:space="preserve">
+    <value>PLC not connected. Executing connection routine.</value>
+  </data>
+  <data name="WRITE_BOOLS_TO_PLC_TEXT_4" xml:space="preserve">
+    <value>Handles not created. Creating Handles.</value>
+  </data>
+  <data name="WRITE_BOOLS_TO_PLC_TEXT_5" xml:space="preserve">
+    <value>Uninitialized Bools writing object. Initializing object.</value>
+  </data>
+  <data name="WRITE_BOOLS_TO_PLC_TEXT_6" xml:space="preserve">
+    <value>Variable value</value>
+  </data>
+  <data name="WRITE_BOOLS_TO_PLC_TEXT_7" xml:space="preserve">
+    <value>External variable</value>
+  </data>
+  <data name="WRITE_BOOLS_TO_PLC_TEXT_8" xml:space="preserve">
+    <value>before writing</value>
+  </data>
+  <data name="WRITE_BOOLS_TO_PLC_TEXT_9" xml:space="preserve">
+    <value>Writing</value>
+  </data>
+  <data name="WRITE_REALS_TO_PLC_TEXT_1" xml:space="preserve">
+    <value>Writing the variable</value>
+  </data>
+  <data name="WRITE_REALS_TO_PLC_TEXT_2" xml:space="preserve">
+    <value>PLC not connected. Executing connection routine.</value>
+  </data>
+  <data name="WRITE_REALS_TO_PLC_TEXT_3" xml:space="preserve">
+    <value>Handles not created. Creating Handles.</value>
+  </data>
+  <data name="WRITE_REALS_TO_PLC_TEXT_4" xml:space="preserve">
+    <value>Uninitialized Reals writing object. Initializing object.</value>
+  </data>
+  <data name="WRITE_TIMES_TO_PLC_TEXT_1" xml:space="preserve">
+    <value>Uninitialized Timestamp object. Initializing object.</value>
+  </data>
+</root>

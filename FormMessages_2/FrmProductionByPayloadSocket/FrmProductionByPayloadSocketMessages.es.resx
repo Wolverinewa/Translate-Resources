@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTION_ERROR_LOG" xml:space="preserve">
+    <value>Usuario: {0} | Pantalla: Producción | Acción: {1} | Error: {2}</value>
+  </data>
+  <data name="ALARMS_LIST_UPDATE_HANDLER_TEXT_1" xml:space="preserve">
+    <value>Máquina lista</value>
+  </data>
+  <data name="APPROVED_MESSAGE" xml:space="preserve">
+    <value>Aprobado</value>
+  </data>
+  <data name="AWAITING_PRODUCTION_START_MESSAGE" xml:space="preserve">
+    <value>Esperando que comience la producción</value>
+  </data>
+  <data name="BTN_AUTOMATIC_CAPTION_AUTOMATIC" xml:space="preserve">
+    <value>Automático</value>
+  </data>
+  <data name="BTN_AUTOMATIC_CAPTION_MANUAL" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="BTN_CLEAR_TEXT_1" xml:space="preserve">
+    <value>Cargando artículos</value>
+  </data>
+  <data name="BTN_CLEAR_TEXT_2" xml:space="preserve">
+    <value>en el botón BORRAR</value>
+  </data>
+  <data name="BTN_CLEAR_TEXT_3" xml:space="preserve">
+    <value>Limpiando cola</value>
+  </data>
+  <data name="BTN_FINISH_PRODUCTION_TEXT_1" xml:space="preserve">
+    <value>Finalizar orden de producción</value>
+  </data>
+  <data name="BTN_FINISH_PRODUCTION_TEXT_2" xml:space="preserve">
+    <value>Hay artículos de producción pendientes en la orden de producción seleccionada.\r\n¿Está seguro de que desea finalizar esta orden?</value>
+  </data>
+  <data name="BTN_FINISH_PRODUCTION_TEXT_3" xml:space="preserve">
+    <value>No se seleccionó ninguna orden de producción.</value>
+  </data>
+  <data name="BTN_FINISH_PRODUCTION_TEXT_4" xml:space="preserve">
+    <value>en el botón Finalizar orden de producción</value>
+  </data>
+  <data name="BTN_RESET_TEXT_1" xml:space="preserve">
+    <value>en el botón Reiniciar</value>
+  </data>
+  <data name="BTN_START_TEXT_1" xml:space="preserve">
+    <value>Comenzar</value>
+  </data>
+  <data name="BTN_START_TEXT_2" xml:space="preserve">
+    <value>Comenzó la producción</value>
+  </data>
+  <data name="BTN_START_TEXT_3" xml:space="preserve">
+    <value>Código de pedido:</value>
+  </data>
+  <data name="BTN_START_TEXT_4" xml:space="preserve">
+    <value>Total de artículos</value>
+  </data>
+  <data name="BTN_START_TEXT_5" xml:space="preserve">
+    <value>Artículos producidos</value>
+  </data>
+  <data name="BTN_START_TEXT_6" xml:space="preserve">
+    <value>¿Quieres iniciar el pedido de producción a continuación?</value>
+  </data>
+  <data name="BTN_START_TEXT_7" xml:space="preserve">
+    <value>Confirmación de inicio de producción:</value>
+  </data>
+  <data name="BTN_START_TEXT_8" xml:space="preserve">
+    <value>en el botón de inicio/parada</value>
+  </data>
+  <data name="BTN_START_TEXT_9" xml:space="preserve">
+    <value>parar</value>
+  </data>
+  <data name="CB_PRODUCTION_ORDER_TEXT_1" xml:space="preserve">
+    <value>Cargando artículos</value>
+  </data>
+  <data name="CONSTRUCTOR_TEXT_1" xml:space="preserve">
+    <value>Pantalla de producción cargada</value>
+  </data>
+  <data name="DISPLAY_PRINTED_ITEMS_TEXT_1" xml:space="preserve">
+    <value>artículos impresos</value>
+  </data>
+  <data name="FINISH_PRODUCTION_ERROR_1" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="FINISH_PRODUCTION_ERROR_2" xml:space="preserve">
+    <value>Error al completar la orden de producción</value>
+  </data>
+  <data name="FINISH_PRODUCTION_TEXT_1" xml:space="preserve">
+    <value>Éxito</value>
+  </data>
+  <data name="FINISH_PRODUCTION_TEXT_2" xml:space="preserve">
+    <value>¡Orden de producción completada exitosamente!</value>
+  </data>
+  <data name="FINISH_PRODUCTION_TEXT_3" xml:space="preserve">
+    <value>Haga clic en "Sí" para finalizar la orden de producción.</value>
+  </data>
+  <data name="FINISH_PRODUCTION_TEXT_4" xml:space="preserve">
+    <value>con asuntos pendientes</value>
+  </data>
+  <data name="FROM_LOAD_TEXT_1" xml:space="preserve">
+    <value>Carga de pantalla de producción</value>
+  </data>
+  <data name="FROM_LOAD_TEXT_2" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="LABELED_PANEL_MACHINE_STATUS" xml:space="preserve">
+    <value>Estado de la máquina</value>
+  </data>
+  <data name="LABELED_PANEL_PRODUCTION_STATUS" xml:space="preserve">
+    <value>Estado de producción</value>
+  </data>
+  <data name="MANUAL_MODE_LOCK_MESSAGE" xml:space="preserve">
+    <value>Para comenzar, cambie el modo de producción a Automático en la HMI</value>
+  </data>
+  <data name="MANUAL_MODE_LOCK_TITLE" xml:space="preserve">
+    <value>Producción bloqueada</value>
+  </data>
+  <data name="MSGBOX_ACTION_NOT_ALLOWED_TITLE" xml:space="preserve">
+    <value>Operación no permitida</value>
+  </data>
+  <data name="MULTI_LABEL_CAMERA_IDENTIFICATION_TEXT_1" xml:space="preserve">
+    <value>Identificación de la cámara</value>
+  </data>
+  <data name="MULTI_LABEL_CAMERA_IDENTIFICATION_TEXT_2" xml:space="preserve">
+    <value>Cámara superior</value>
+  </data>
+  <data name="MULTI_LABEL_CAMERA_IDENTIFICATION_TEXT_3" xml:space="preserve">
+    <value>Cámara lateral</value>
+  </data>
+  <data name="NO_SELECTED_PARAMETERS_MESSAGE" xml:space="preserve">
+    <value>Para comenzar, seleccione Orden de producción</value>
+  </data>
+  <data name="NO_SELECTED_PARAMETERS_TITLE" xml:space="preserve">
+    <value>No hay parámetros seleccionados</value>
+  </data>
+  <data name="PCB_BATCH_CODE_TEXT_1" xml:space="preserve">
+    <value>Seleccionar Lote</value>
+  </data>
+  <data name="PCB_BATCH_CODE_TEXT_2" xml:space="preserve">
+    <value>en el botón para seleccionar el lote</value>
+  </data>
+  <data name="PCB_SEARCH_PRODUCT_TEXT_1" xml:space="preserve">
+    <value>Seleccionar producto</value>
+  </data>
+  <data name="PCB_SEARCH_PRODUCT_TEXT_2" xml:space="preserve">
+    <value>en el botón para seleccionar el producto</value>
+  </data>
+  <data name="PIC_SEARCH_PRODUCTION_ORDER_TEXT_1" xml:space="preserve">
+    <value>en el botón para seleccionar la orden de producción</value>
+  </data>
+  <data name="PRINTER_NOT_CONNECTED_MESSAGE" xml:space="preserve">
+    <value>Impresora no conectada. Para comenzar, verifique la conexión.</value>
+  </data>
+  <data name="PRINTER_NOT_CONNECTED_TITLE" xml:space="preserve">
+    <value>Impresora no conectada</value>
+  </data>
+  <data name="REJECTED_NO_READ_MESSAGE" xml:space="preserve">
+    <value>Rechazado - No se puede leer</value>
+  </data>
+  <data name="SYNC _DATA_TEXT_2" xml:space="preserve">
+    <value>Sincronización completada</value>
+  </data>
+  <data name="SYNC_DATA_ERROR" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="SYNC_DATA_TEXT_1" xml:space="preserve">
+    <value>Datos sincronizados exitosamente</value>
+  </data>
+  <data name="SYNC_DATA_TEXT_2" xml:space="preserve">
+    <value>Sincronización completada</value>
+  </data>
+  <data name="TOGGLE_BTN_START_TEXT_1" xml:space="preserve">
+    <value>Estado modificado de ckBtnStart</value>
+  </data>
+  <data name="TOGGLE_BTN_START_TEXT_2" xml:space="preserve">
+    <value>Se cambió el estado de ckBtnStart a</value>
+  </data>
+  <data name="TRIPLE_LABEL_CAMERA_VALIDATION_TEXT_1" xml:space="preserve">
+    <value>Validación de cámara</value>
+  </data>
+  <data name="TRIPLE_LABEL_PRODUCTION_TEXT_1" xml:space="preserve">
+    <value>Producción</value>
+  </data>
+  <data name="TRIPLE_LABEL_PRODUCTION_TEXT_2" xml:space="preserve">
+    <value>Elementos</value>
+  </data>
+  <data name="TRIPLE_LABEL_SPEED_TEXT_1" xml:space="preserve">
+    <value>Velocidad</value>
+  </data>
+  <data name="TRIPLE_LABEL_SPEED_TEXT_2" xml:space="preserve">
+    <value>Artículos por minuto</value>
+  </data>
+  <data name="USER_ACTION_LOG" xml:space="preserve">
+    <value>Usuario: {0} | Pantalla: Producción | Acción: {1}</value>
+  </data>
+  <data name="USER_CLICK_LOG" xml:space="preserve">
+    <value>Usuario: {0} | Pantalla: Producción | Acción: Se hizo clic en {1}</value>
+  </data>
+  <data name="USER_CLICK_REGISTERS_LOG_PRODUCTION_STARTED_NOT_ALLOWED" xml:space="preserve">
+    <value>Usuario: {0} | Pantalla: Producción | Intentar INICIAR/DETENER la producción sin permiso. Acción no autorizada.</value>
+  </data>
+</root>

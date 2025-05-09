@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTION_ERROR_LOG" xml:space="preserve">
+    <value>User: {0} | Screen: Alarm Report | Action: {1} | Error: {2}</value>
+  </data>
+  <data name="BTN_REPORT_ALARM_EXPORT_ERROR_TEXT_1" xml:space="preserve">
+    <value>Error generating log report</value>
+  </data>
+  <data name="BTN_REPORT_ALARM_EXPORT_ERROR_TEXT_2" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="BTN_REPORT_ALARM_EXPORT_TEXT_1" xml:space="preserve">
+    <value>Exported report</value>
+  </data>
+  <data name="BTN_REPORT_ALARM_EXPORT_TEXT_2" xml:space="preserve">
+    <value>on the Export Alarm Report button</value>
+  </data>
+  <data name="BTN_REPORT_ALARM_FILTER_TEXT_1" xml:space="preserve">
+    <value>clicked on the Filter button</value>
+  </data>
+  <data name="DG_ALARMS_TEXT_1" xml:space="preserve">
+    <value>in the column header</value>
+  </data>
+  <data name="DG_ALARMS_TEXT_2" xml:space="preserve">
+    <value>to reorder</value>
+  </data>
+  <data name="FORM_LOAD_TEXT_1" xml:space="preserve">
+    <value>Loading the Alarm Report screen</value>
+  </data>
+  <data name="GENERIC_ERROR" xml:space="preserve">
+    <value>There was a problem trying to perform this action</value>
+  </data>
+  <data name="GENERIC_ERROR_TITLE" xml:space="preserve">
+    <value>Unidentified error</value>
+  </data>
+  <data name="GET_ALARMS_ERROR_TEXT_1" xml:space="preserve">
+    <value>Error fetching information</value>
+  </data>
+  <data name="GET_ALARMS_ERROR_TEXT_2" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="GET_ALARMS_TEXT_1" xml:space="preserve">
+    <value>Filter applied</value>
+  </data>
+  <data name="MSGBOX_ACTION_LIMITED_ALLOWED" xml:space="preserve">
+    <value>Your access level [{0}] does not allow you to perform all actions on this form.</value>
+  </data>
+  <data name="REPORT_LOG" xml:space="preserve">
+    <value>User: {3} | Screen: Alarm Report | Generated Report - Start Date-Time: {1}, End Date-Time: {2}</value>
+  </data>
+  <data name="USER_ACTION_LOG" xml:space="preserve">
+    <value>User: {0} | Screen: Alarm Report | Action: {1}</value>
+  </data>
+  <data name="USER_CLICK_LOG" xml:space="preserve">
+    <value>User: {0} | Screen: Alarm Report | Action: Clicked {1}</value>
+  </data>
+</root>

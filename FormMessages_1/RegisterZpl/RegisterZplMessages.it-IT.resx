@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BTN_REMOVE_ZPL_TEXT_1" xml:space="preserve">
+    <value>Eliminazione dai layout delle etichette {0} da parte dell'utente {1}.</value>
+  </data>
+  <data name="DELETE_PRINT_TEMPLATE_ERROR_TITLE" xml:space="preserve">
+    <value>Elimina il modello non valido.</value>
+  </data>
+  <data name="DELETE_PRINT_TEMPLATE_EXHIST" xml:space="preserve">
+    <value>Impossibile eliminare, il modello di etichetta è in uso.</value>
+  </data>
+  <data name="DELETE_PRINT_TEMPLATE_QUESTION" xml:space="preserve">
+    <value>Vuoi davvero eliminare il record del registro del modello di etichetta?</value>
+  </data>
+  <data name="DELETE_PRINT_TEMPLATE_QUESTION_TITLE" xml:space="preserve">
+    <value>Elimina il modello di etichetta</value>
+  </data>
+  <data name="FILEDS_VALIDATION_TEXT_1" xml:space="preserve">
+    <value>Il modello non può essere vuoto</value>
+  </data>
+  <data name="FILEDS_VALIDATION_TEXT_2" xml:space="preserve">
+    <value>La descrizione del modello deve contenere più di 5 caratteri</value>
+  </data>
+  <data name="FILEDS_VALIDATION_TEXT_3" xml:space="preserve">
+    <value>Il nome del modello deve contenere più di 5 caratteri</value>
+  </data>
+  <data name="FORM_LOAD_TEXT_1" xml:space="preserve">
+    <value>Modulo layout etichetta avviato dall'utente {0}.</value>
+  </data>
+  <data name="GET_EDIT_TEMPLATE_TEXT_1" xml:space="preserve">
+    <value>Layout etichetta caricato</value>
+  </data>
+  <data name="GET_PRINT_TEMPLATE_TEXT_1" xml:space="preserve">
+    <value>Record di layout dell'etichetta {0} ottenuto per la modifica dall'utente {1}.</value>
+  </data>
+  <data name="INSERT_PRINT_TEMPLATE_QUESTION" xml:space="preserve">
+    <value>Vuoi davvero inserirlo nel registro dei modelli di etichette?</value>
+  </data>
+  <data name="INSERT_PRINT_TEMPLATE_QUESTION_TITLE" xml:space="preserve">
+    <value>Inserisci modello etichetta</value>
+  </data>
+  <data name="SAVE_TEXT_1" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="SAVE_TEXT_2" xml:space="preserve">
+    <value>Registro</value>
+  </data>
+  <data name="UPDATE_PRINT_TEMPLATE_QUESTION" xml:space="preserve">
+    <value>Vuoi davvero aggiornare il registro dei modelli di etichette?</value>
+  </data>
+  <data name="UPDATE_PRINT_TEMPLATE_QUESTION_TITLE" xml:space="preserve">
+    <value>Aggiorna il modello di etichetta</value>
+  </data>
+</root>

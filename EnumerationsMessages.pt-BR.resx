@@ -1,0 +1,744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PlcVariableTypeEnumeration_Bool" xml:space="preserve">
+    <value>Bool</value>
+  </data>
+  <data name="PlcVariableTypeEnumeration_FloatOrReal" xml:space="preserve">
+    <value>Float ou Real</value>
+  </data>
+  <data name="PlcVariableTypeEnumeration_Int16" xml:space="preserve">
+    <value>Int16</value>
+  </data>
+  <data name="PlcVariableTypeEnumeration_Int32" xml:space="preserve">
+    <value>Int32</value>
+  </data>
+  <data name="PlcVariableTypeEnumeration_Timespan" xml:space="preserve">
+    <value>Tempo (milissegundos)</value>
+  </data>
+  <data name="RfidRecordingTypeEnumeration_ReadAndRecord" xml:space="preserve">
+    <value>Ler e gravar</value>
+  </data>
+  <data name="RfidRecordingTypeEnumeration_ReadRecordAndCheck" xml:space="preserve">
+    <value>Ler, gravar e conferir</value>
+  </data>
+  <data name="RfidRecordingTypeEnumeration_RecordOnly" xml:space="preserve">
+    <value>Apenas gravar</value>
+  </data>
+  <data name="RfidRecordReturnEnumeration_DeviceNotConnected" xml:space="preserve">
+    <value>Dispositivo desconectado</value>
+  </data>
+  <data name="RfidRecordReturnEnumeration_DeviceNotResponded" xml:space="preserve">
+    <value>Dispositivo não respondeu</value>
+  </data>
+  <data name="RfidRecordReturnEnumeration_EpcNotRead" xml:space="preserve">
+    <value>Tag não lida</value>
+  </data>
+  <data name="RfidRecordReturnEnumeration_Fail" xml:space="preserve">
+    <value>Erro na gravação</value>
+  </data>
+  <data name="RfidRecordReturnEnumeration_Interrupted" xml:space="preserve">
+    <value>Gravação interrompida</value>
+  </data>
+  <data name="RfidRecordReturnEnumeration_RecordedEpcNotMatch" xml:space="preserve">
+    <value>EPC gerado &lt;&gt; EPC lido</value>
+  </data>
+  <data name="RfidRecordReturnEnumeration_Successful" xml:space="preserve">
+    <value>Gravação OK</value>
+  </data>
+  <data name="RfidRecordReturnEnumeration_Timeout" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="SerializationMethodEnumeration_AutomaticGlobalIdentifiers" xml:space="preserve">
+    <value>Identificação automática por protocolos globais (GS1, HIBC)</value>
+  </data>
+  <data name="SerializationMethodEnumeration_Identifier" xml:space="preserve">
+    <value>Identificador</value>
+  </data>
+  <data name="SerializationMethodEnumeration_LabelQualityCheck" xml:space="preserve">
+    <value>Checagem de Qualidade de Etiqueta</value>
+  </data>
+  <data name="SerializationMethodEnumeration_Position" xml:space="preserve">
+    <value>Posição Relativa</value>
+  </data>
+  <data name="SerializationMethodEnumeration_Separator" xml:space="preserve">
+    <value>Separador</value>
+  </data>
+  <data name="SocketFunctionalityEnumeration_NotDefined" xml:space="preserve">
+    <value>Não definido</value>
+  </data>
+  <data name="SocketFunctionalityEnumeration_RequisitionServer" xml:space="preserve">
+    <value>Servidor de requisição - Integração</value>
+  </data>
+  <data name="SocketFunctionalityEnumeration_ValidationServer" xml:space="preserve">
+    <value>Servidor de Validação - Integração</value>
+  </data>
+  <data name="SocketPayloadTypeEnumeration_PrintQuantity" xml:space="preserve">
+    <value>Por comando ^PQ</value>
+  </data>
+  <data name="SocketPayloadTypeEnumeration_UniqueLabelsList" xml:space="preserve">
+    <value>Múltiplas Etiquetas Únicas</value>
+  </data>
+  <data name="ValidationStatusEnumeration_Approved" xml:space="preserve">
+    <value>Aprovado</value>
+  </data>
+  <data name="ValidationStatusEnumeration_NotChecked" xml:space="preserve">
+    <value>Não conferido</value>
+  </data>
+  <data name="ValidationStatusEnumeration_NotProcessed" xml:space="preserve">
+    <value>Não Processado</value>
+  </data>
+  <data name="ValidationStatusEnumeration_Rejected" xml:space="preserve">
+    <value>Rejeitado</value>
+  </data>
+  <data name="ValidationStatusEnumeration_RejectedByCode" xml:space="preserve">
+    <value>Rejeitado Código</value>
+  </data>
+  <data name="ValidationStatusEnumeration_RejectedByQuality" xml:space="preserve">
+    <value>Rejeitado Qualidade</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_Reserve" xml:space="preserve">
+    <value>RESERVA</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ApplicatorFail" xml:space="preserve">
+    <value>Falha Aplicador</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ApplicatorSensor" xml:space="preserve">
+    <value>Sensor Aplicador</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_PunchedBoxStatus" xml:space="preserve">
+    <value>Status Caixa Furada</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ApplicatorConveyorStatus" xml:space="preserve">
+    <value>Status Transportador Aplicador</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_WeigherConveyorStatus" xml:space="preserve">
+    <value>Status Transportador Balança</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectActivated" xml:space="preserve">
+    <value>Status Rejeito Acionado</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectSensor" xml:space="preserve">
+    <value>Sensor Rejeito</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_FifoApplicationEmpty" xml:space="preserve">
+    <value>Buffer Vazio - FIFO Aplicação</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_FifoFrozenEmpty" xml:space="preserve">
+    <value>Buffer Vazio - FIFO Congelado</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ExternalPlcCommunicationFail" xml:space="preserve">
+    <value>Falha de Comunicação com CLP Torfresma</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_FailActivateAplicatorConveyor" xml:space="preserve">
+    <value>Falha ao Ligar Transportador Aplicador</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_FailActivateAcceleratorConveyor" xml:space="preserve">
+    <value>Falha ao Ligar Transportador Acelerador</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_FailActivateCadenceConveyor" xml:space="preserve">
+    <value>Falha ao Ligar Transportador Cadenciador</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_FailActivateWeigherConveyor" xml:space="preserve">
+    <value>Falha ao Ligar Transportador Balança</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_Applicator1Enabled" xml:space="preserve">
+    <value>Status Feedback Aplicador 1 Habilitado</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_Applicator2Enabled" xml:space="preserve">
+    <value>Status Feedback Aplicador 2 Habilitado</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_MachineOperational" xml:space="preserve">
+    <value>Máquina Operando</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_LabelRollEnding" xml:space="preserve">
+    <value>Bobina de etiquetas próxima do fim</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_SensorEntryReaders" xml:space="preserve">
+    <value>Sensor Leitores Entrada</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_SensorInPiston" xml:space="preserve">
+    <value>Sensor In Pistão</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_SensorOutPiston" xml:space="preserve">
+    <value>Sensor Out Pistão</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ItemsInFifoPlc" xml:space="preserve">
+    <value>Status Buffer FIFO CLP</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ApplicationCycleFinished1" xml:space="preserve">
+    <value>Fim de ciclo 1 aplicação</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ApplicationCycleFinished2" xml:space="preserve">
+    <value>Fim de ciclo 2 aplicação</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_LifeBit" xml:space="preserve">
+    <value>LifeBit</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_MachineSafe" xml:space="preserve">
+    <value>Máquina Segura</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ProductSensor" xml:space="preserve">
+    <value>Sensor Produto</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_SensorValidationReaders" xml:space="preserve">
+    <value>Sensor Leitores Validação</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_PressureSensor" xml:space="preserve">
+    <value>Sensor de Pressão</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ResetButton" xml:space="preserve">
+    <value>Botão de Rearme</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_EmergencyButton1" xml:space="preserve">
+    <value>Botão de Emergência 1</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_EmergencyButton2" xml:space="preserve">
+    <value>Botão de Emergência 2</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_EmergencyButton3" xml:space="preserve">
+    <value>Botão de Emergência 3</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_EmergencyButton4" xml:space="preserve">
+    <value>Botão de Emergência 4</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_EmergencyButton5" xml:space="preserve">
+    <value>Botão de Emergência 5</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_EmergencyButton6" xml:space="preserve">
+    <value>Botão de Emergência 6</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_EmergencyButton7" xml:space="preserve">
+    <value>Botão de Emergência 7</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_EmergencyButton8" xml:space="preserve">
+    <value>Botão de Emergência 8</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_EmergencyButton9" xml:space="preserve">
+    <value>Botão de Emergência 9</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmEmergencyButtonApplicator" xml:space="preserve">
+    <value>Alarme Botão de Emergência Aplicador</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmEmergencyButton1" xml:space="preserve">
+    <value>Alarme Botão de Emergência 1</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmEmergencyButton2" xml:space="preserve">
+    <value>Alarme Botão de Emergência 2</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmEmergencyButton3" xml:space="preserve">
+    <value>Alarme Botão de Emergência 3</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmEmergencyButton4" xml:space="preserve">
+    <value>Alarme Botão de Emergência 4</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmEmergencyButton5" xml:space="preserve">
+    <value>Alarme Botão de Emergência 5</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmEmergencyButton6" xml:space="preserve">
+    <value>Alarme Botão de Emergência 6</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmEmergencyButton7" xml:space="preserve">
+    <value>Alarme Botão de Emergência 7</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmEmergencyButton8" xml:space="preserve">
+    <value>Alarme Botão de Emergência 8</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmEmergencyButton9" xml:space="preserve">
+    <value>Alarme Botão de Emergência 9</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_Door1Closed" xml:space="preserve">
+    <value>Porta 1 Fechada</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_Door2Closed" xml:space="preserve">
+    <value>Porta 2 Fechada</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_Door3Closed" xml:space="preserve">
+    <value>Porta 3 Fechada</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmDoor1Open" xml:space="preserve">
+    <value>Status Alarme Porta 1 Aberta</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmDoor2Open" xml:space="preserve">
+    <value>Status Alarme Porta 2 Aberta</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmDoor3Open" xml:space="preserve">
+    <value>Status Alarme Porta 3 Aberta</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_PalletInPosition1" xml:space="preserve">
+    <value>Pallet em Posição 1</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_PalletInPosition2" xml:space="preserve">
+    <value>Pallet em Posição 2</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_PrintRollDepleted" xml:space="preserve">
+    <value>Fim de Bobina Aplicador (Sinal)</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ButtonStart" xml:space="preserve">
+    <value>Botão Liga</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ButtonStop" xml:space="preserve">
+    <value>Botão Desliga</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_TotalProductionCounter" xml:space="preserve">
+    <value>Produção Total</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmConsecutiveRejects" xml:space="preserve">
+    <value>Alarme Rejeitos Consecutivos</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_InvertersNoParameterSent" xml:space="preserve">
+    <value>Inversores sem velocidade</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_Inverter1Fail" xml:space="preserve">
+    <value>Inversor 1 em falha</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_Inverter2Fail" xml:space="preserve">
+    <value>Inversor 2 em falha</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_Inverter3Fail" xml:space="preserve">
+    <value>Inversor 3 em falha</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_Inverter4Fail" xml:space="preserve">
+    <value>Inversor 4 em falha</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmTornLiner" xml:space="preserve">
+    <value>Liner Rompido</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmPrinterFailure" xml:space="preserve">
+    <value>Impressora em falha</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmPrintRollDepleted" xml:space="preserve">
+    <value>Fim de Bobina</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmLabelRollDepleted" xml:space="preserve">
+    <value>Falta de etiqueta</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmSensorIn" xml:space="preserve">
+    <value>Falha Sensor In</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmSensorOut" xml:space="preserve">
+    <value>Falha Sensor Out</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmNoCompressedAir" xml:space="preserve">
+    <value>Equipamento sem ar comprimido</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmNoItemsInRejectFifo" xml:space="preserve">
+    <value>Não há itens na fila de Rejeito do CLP</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_AlarmNoItemsInApplyFifo" xml:space="preserve">
+    <value>Não há itens na fila de Aplicação do CLP</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ApplicatorInAutomaticMode" xml:space="preserve">
+    <value>Aplicador em Modo Automático</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason01" xml:space="preserve">
+    <value>Motivo de rejeito 1</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason02" xml:space="preserve">
+    <value>Motivo de rejeito 2</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason03" xml:space="preserve">
+    <value>Motivo de rejeito 3</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason04" xml:space="preserve">
+    <value>Motivo de rejeito 4</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason05" xml:space="preserve">
+    <value>Motivo de rejeito 5</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason06" xml:space="preserve">
+    <value>Motivo de rejeito 6</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason07" xml:space="preserve">
+    <value>Motivo de rejeito 7</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason08" xml:space="preserve">
+    <value>Motivo de rejeito 8</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason09" xml:space="preserve">
+    <value>Motivo de rejeito 9</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason10" xml:space="preserve">
+    <value>Motivo de rejeito 10</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason11" xml:space="preserve">
+    <value>Motivo de rejeito 11</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason12" xml:space="preserve">
+    <value>Motivo de rejeito 12</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason13" xml:space="preserve">
+    <value>Motivo de rejeito 13</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason14" xml:space="preserve">
+    <value>Motivo de rejeito 14</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason15" xml:space="preserve">
+    <value>Motivo de rejeito 15</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason16" xml:space="preserve">
+    <value>Motivo de rejeito 16</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason17" xml:space="preserve">
+    <value>Motivo de rejeito 17</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason18" xml:space="preserve">
+    <value>Motivo de rejeito 18</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason19" xml:space="preserve">
+    <value>Motivo de rejeito 19</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason20" xml:space="preserve">
+    <value>Motivo de rejeito 20</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason21" xml:space="preserve">
+    <value>Motivo de rejeito 21</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason22" xml:space="preserve">
+    <value>Motivo de rejeito 22</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason23" xml:space="preserve">
+    <value>Motivo de rejeito 23</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason24" xml:space="preserve">
+    <value>Motivo de rejeito 24</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason25" xml:space="preserve">
+    <value>Motivo de rejeito 25</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason26" xml:space="preserve">
+    <value>Motivo de rejeito 26</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason27" xml:space="preserve">
+    <value>Motivo de rejeito 27</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason28" xml:space="preserve">
+    <value>Motivo de rejeito 28</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason29" xml:space="preserve">
+    <value>Motivo de rejeito 29</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason30" xml:space="preserve">
+    <value>Motivo de rejeito 30</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason31" xml:space="preserve">
+    <value>Motivo de rejeito 31</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectReason32" xml:space="preserve">
+    <value>Motivo de rejeito 32</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ApplicationDelay" xml:space="preserve">
+    <value>Atraso de Aplicação</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ValidationReaderActivationTime" xml:space="preserve">
+    <value>Tempo de Ativação Leitor Rejeito</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_EntryReadersFilter" xml:space="preserve">
+    <value>Filtro Leitores Entrada</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_EjectItem" xml:space="preserve">
+    <value>Expulsa Item</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_Reset" xml:space="preserve">
+    <value>Rearme</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ClearBuffer" xml:space="preserve">
+    <value>Limpa Buffer</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_LifeBitWrite" xml:space="preserve">
+    <value>LifeBit Escrita</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ApplyFIFO" xml:space="preserve">
+    <value>Aplicar (FIFO)</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_DoNotApplyFIFO" xml:space="preserve">
+    <value>Não Aplicar (FIFO)</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ApproveItemFIFO" xml:space="preserve">
+    <value>Aprovado</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectItemFIFO" xml:space="preserve">
+    <value>Reprovado</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ValidationReaderDelay" xml:space="preserve">
+    <value>Atraso Leitor Rejeito</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_DisableReject" xml:space="preserve">
+    <value>Desabilitar Rejeito</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_EntryReadersSensorActiveOnFallingEdge" xml:space="preserve">
+    <value>Sensor trigger leitores de entrada ativo na entrada</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ProductSensorActiveOnFallingEdge" xml:space="preserve">
+    <value>Sensor produto ativo na entrada</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_ValidationReadersSensorActiveOnFallingEdge" xml:space="preserve">
+    <value>Sensor trigger leitores de validação ativo na entrada</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_EntryReadersDelay" xml:space="preserve">
+    <value>Atraso Leitores de Entrada</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_EntryReadersActivationTime" xml:space="preserve">
+    <value>Tempo de Ativação Leitores de Entrada</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectDelay" xml:space="preserve">
+    <value>Atraso Rejeito</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectActivationTime" xml:space="preserve">
+    <value>Tempo de Ativação Rejeito</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_TimingConveyorSpeedMetersPerMinute" xml:space="preserve">
+    <value>Velocidade Esteira Cadenciador (m/min)</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_MainConveyorSpeedMetersPerMinute" xml:space="preserve">
+    <value>Velocidade Esteira Principal (m/min)</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectConveyorSpeedMetersPerMinute" xml:space="preserve">
+    <value>Velocidade Esteira Rejeito (m/min)</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_RejectSensorActiveOnFallingEdge" xml:space="preserve">
+    <value>Sensor rejeito ativo na entrada</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_StartConveyor1" xml:space="preserve">
+    <value>Aciona Transportador 1</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_StartConveyor2" xml:space="preserve">
+    <value>Aciona Transportador 2</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_StartConveyor3" xml:space="preserve">
+    <value>Aciona Transportador 3</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_TriggerEntryReaders" xml:space="preserve">
+    <value>Aciona Leitores de Entrada</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_TriggerValidationReaders" xml:space="preserve">
+    <value>Aciona Leitores de Validação</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_TriggerReject" xml:space="preserve">
+    <value>Aciona Rejeito</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_TriggerApply" xml:space="preserve">
+    <value>Aciona Aplicar</value>
+  </data>
+  <data name="PlcVariableFunctionEnumeration_SoftwareReady" xml:space="preserve">
+    <value>Software Pronto</value>
+  </data>
+  <data name="GlobalIdentifiersFormatEnumeration_Encapsulated" xml:space="preserve">
+    <value>Encapsulado (com parênteses)</value>
+  </data>
+  <data name="GlobalIdentifiersFormatEnumeration_NonEncapsulated" xml:space="preserve">
+    <value>Não encapsulado (sem parênteses)</value>
+  </data>
+  <data name="FieldTypeEnumeration_SKU" xml:space="preserve">
+    <value>SKU</value>
+  </data>
+  <data name="FieldTypeEnumeration_ProductName" xml:space="preserve">
+    <value>Nome do Produto</value>
+  </data>
+  <data name="FieldTypeEnumeration_ProductFamily" xml:space="preserve">
+    <value>Família do Produto</value>
+  </data>
+  <data name="FieldTypeEnumeration_ProductSerial" xml:space="preserve">
+    <value>Serial do Produto</value>
+  </data>
+  <data name="FieldTypeEnumeration_ProductCondition" xml:space="preserve">
+    <value>Condição do Produto</value>
+  </data>
+  <data name="FieldTypeEnumeration_ProductBarcode" xml:space="preserve">
+    <value>Código de barras</value>
+  </data>
+  <data name="FieldTypeEnumeration_ProductWeight" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="FieldTypeEnumeration_ProductQuantity" xml:space="preserve">
+    <value>Quantidade</value>
+  </data>
+  <data name="FieldTypeEnumeration_Line" xml:space="preserve">
+    <value>Linha</value>
+  </data>
+  <data name="FieldTypeEnumeration_ProductTrackingCode" xml:space="preserve">
+    <value>Código de Rastreio</value>
+  </data>
+  <data name="FieldTypeEnumeration_ProductTemperature" xml:space="preserve">
+    <value>Temperatura</value>
+  </data>
+  <data name="FieldTypeEnumeration_Applicator" xml:space="preserve">
+    <value>Aplicador</value>
+  </data>
+  <data name="FieldTypeEnumeration_MarketClassification" xml:space="preserve">
+    <value>Classificação de Mercado</value>
+  </data>
+  <data name="FieldTypeEnumeration_Ean13" xml:space="preserve">
+    <value>EAN13</value>
+  </data>
+  <data name="FieldTypeEnumeration_Ean14" xml:space="preserve">
+    <value>EAN14</value>
+  </data>
+  <data name="FieldTypeEnumeration_LabellingMode" xml:space="preserve">
+    <value>Tipo de Etiquetagem</value>
+  </data>
+  <data name="FieldTypeEnumeration_NotDefined" xml:space="preserve">
+    <value>Não definido</value>
+  </data>
+  <data name="FieldExtractionMethodEnumeration_IdentifierAndValue" xml:space="preserve">
+    <value>Identificador e Valor</value>
+  </data>
+  <data name="FieldExtractionMethodEnumeration_IdentifierOnly" xml:space="preserve">
+    <value>Identificador Apenas</value>
+  </data>
+  <data name="FieldExtractionMethodEnumeration_ValueOnly" xml:space="preserve">
+    <value>Valor Apenas</value>
+  </data>
+  <data name="DeviceFunctionalityEnumeration_ValidationReader" xml:space="preserve">
+    <value>Validação</value>
+  </data>
+  <data name="DeviceFunctionalityEnumeration_EntryReader" xml:space="preserve">
+    <value>Entrada</value>
+  </data>
+  <data name="DeviceFunctionalityEnumeration_RemoteValidationReader" xml:space="preserve">
+    <value>Rejeito Remoto</value>
+  </data>
+  <data name="DeviceFunctionalityEnumeration_NotDefined" xml:space="preserve">
+    <value>Não definido</value>
+  </data>
+  <data name="DeviceFunctionalityEnumeration_ReprocessingCheckReader" xml:space="preserve">
+    <value>Reprocessamento</value>
+  </data>
+  <data name="DeviceFunctionalityEnumeration_Weigher" xml:space="preserve">
+    <value>Balança</value>
+  </data>
+  <data name="DeviceFunctionalityEnumeration_RequisitionServer" xml:space="preserve">
+    <value>Servidor de requisição - Integração</value>
+  </data>
+  <data name="DeviceFunctionalityEnumeration_ValidationServer" xml:space="preserve">
+    <value>Servidor de Validação - Integração</value>
+  </data>
+  <data name="DeviceFunctionalityEnumeration_PayloadSocket" xml:space="preserve">
+    <value>Socket de Recebimento de Payload</value>
+  </data>
+  <data name="DatabaseTypeEnumeration_MYSQL" xml:space="preserve">
+    <value>MySQL</value>
+  </data>
+  <data name="DatabaseTypeEnumeration_POSTGRESQL" xml:space="preserve">
+    <value>PostgreSQL</value>
+  </data>
+  <data name="DatabaseTypeEnumeration_SQLSERVER" xml:space="preserve">
+    <value>SQL Server</value>
+  </data>
+</root>

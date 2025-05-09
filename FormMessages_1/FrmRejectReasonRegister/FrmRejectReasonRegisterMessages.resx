@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTION_ERROR_LOG" xml:space="preserve">
+    <value>Usuário: {0} | Tela: Cadastro - Motivo de Rejeito | Ação: {1} | Erro: {2}</value>
+  </data>
+  <data name="ALL_FIELDS_EMPTY_PLC_VARIABLE" xml:space="preserve">
+    <value>Preencha NOME e DESCRIÇÃO de pelo menos um idioma</value>
+  </data>
+  <data name="ALREADY_ASSIGNED_PLC_VARIABLE" xml:space="preserve">
+    <value>Já existe um motivo de rejeito habilitado vinculado à entrada {0}\r\nPara utilizar esta entrada, desabilite o outro motivo de rejeito que possua este vínculo.</value>
+  </data>
+  <data name="CHANGE_BINDED_VARIABLE" xml:space="preserve">
+    <value>Alterar entrada vinculada</value>
+  </data>
+  <data name="CHANGE_DESCRIPTION_FIELD" xml:space="preserve">
+    <value>Alterou campo descrição: '{0}'</value>
+  </data>
+  <data name="CHANGE_EDIT_LANGUAGE" xml:space="preserve">
+    <value>Alterar idioma para edição</value>
+  </data>
+  <data name="CHANGE_NAME_FIELD" xml:space="preserve">
+    <value>Alterou campo nome: '{0}'</value>
+  </data>
+  <data name="CLOSE_FORM" xml:space="preserve">
+    <value>Fechar tela</value>
+  </data>
+  <data name="CREATE_REGISTER" xml:space="preserve">
+    <value>Criar novo registro</value>
+  </data>
+  <data name="CREATE_UPDATE_BASE_MESSAGE" xml:space="preserve">
+    <value>Salvar | {0}:\r\n{1}</value>
+  </data>
+  <data name="DISABLED_CONST" xml:space="preserve">
+    <value>INATIVO</value>
+  </data>
+  <data name="DISPLAY_ONSCREEN_KEYBOARD" xml:space="preserve">
+    <value>Exibir teclado virtual</value>
+  </data>
+  <data name="ENABLED_CONST" xml:space="preserve">
+    <value>ATIVO</value>
+  </data>
+  <data name="FAIL_SAVE_MESSAGE" xml:space="preserve">
+    <value>Falha ao salvar registro</value>
+  </data>
+  <data name="FORM_LOADED" xml:space="preserve">
+    <value>Tela carregada</value>
+  </data>
+  <data name="LOADING_FORM" xml:space="preserve">
+    <value>Carregando tela</value>
+  </data>
+  <data name="LOAD_CONTROLS" xml:space="preserve">
+    <value>Carregar dados nos controles de tela</value>
+  </data>
+  <data name="LOAD_FORM" xml:space="preserve">
+    <value>Carregar tela</value>
+  </data>
+  <data name="POPULATE_LANGUAGE_COMBOBOX" xml:space="preserve">
+    <value>Carregar lista no combobox de seleção de idioma</value>
+  </data>
+  <data name="POPULATE_VARIABLE_COMBOBOX" xml:space="preserve">
+    <value>Carregar lista no combobox de seleção de entrada vinculada</value>
+  </data>
+  <data name="SAVE_MESSAGE_TITLE" xml:space="preserve">
+    <value>Salvar registro</value>
+  </data>
+  <data name="SELECTED_BINDED_VARIABLE" xml:space="preserve">
+    <value>Alterou entrada vinculada: '{0}'</value>
+  </data>
+  <data name="SELECTED_EDIT_LANGUAGE" xml:space="preserve">
+    <value>Alterado idioma para edição: '{0}' - '{1}'</value>
+  </data>
+  <data name="SUCCESSFUL_SAVE_MESSAGE" xml:space="preserve">
+    <value>Registro salvo com sucesso</value>
+  </data>
+  <data name="TOGGLE_ENABLED" xml:space="preserve">
+    <value>Alterar Status Habilitado: {0}</value>
+  </data>
+  <data name="UPDATE_ENTITY_DESCRIPTION" xml:space="preserve">
+    <value>Atualizar dicionário de descrição da entidade em memória</value>
+  </data>
+  <data name="UPDATE_ENTITY_NAME" xml:space="preserve">
+    <value>Atualizar dicionário de nome da entidade em memória</value>
+  </data>
+  <data name="UPDATE_REGISTER" xml:space="preserve">
+    <value>Registro atualizado</value>
+  </data>
+  <data name="USER_ACTION_LOG" xml:space="preserve">
+    <value>Usuário: {0} | Tela: Cadastro - Motivo de Rejeito | Ação: {1}</value>
+  </data>
+  <data name="USER_CLICK_LOG" xml:space="preserve">
+    <value>Usuário: {0} | Tela: Cadastro - Motivo de Rejeito | Ação: Clicou {1}</value>
+  </data>
+</root>

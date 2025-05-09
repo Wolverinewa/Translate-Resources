@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTION_ERROR_LOG" xml:space="preserve">
+    <value>User: {0} | Screen: Production Validation | Action: {1} | Error: {2}</value>
+  </data>
+  <data name="BTN_CANCEL_TEXT_1" xml:space="preserve">
+    <value>on the Cancel button</value>
+  </data>
+  <data name="BTN_YES_LOG_1" xml:space="preserve">
+    <value>FIND_BY_USERNAME_ERROR_1</value>
+  </data>
+  <data name="BTN_YES_TEXT_1" xml:space="preserve">
+    <value>on the YES button</value>
+  </data>
+  <data name="FIND_BY_USERNAME_ERROR_1" xml:space="preserve">
+    <value>User not allowed to start production</value>
+  </data>
+  <data name="FIND_BY_USERNAME_ERROR_2" xml:space="preserve">
+    <value>User disabled</value>
+  </data>
+  <data name="FIND_BY_USERNAME_ERROR_3" xml:space="preserve">
+    <value>Invalid User - Not Found.</value>
+  </data>
+  <data name="GENERIC_ERROR" xml:space="preserve">
+    <value>Error authenticating user to start production</value>
+  </data>
+  <data name="GENERIC_ERROR_TITLE" xml:space="preserve">
+    <value>Unidentified error</value>
+  </data>
+  <data name="LOAD_TEXT_ON_SCREEN_TEXT_1" xml:space="preserve">
+    <value>Are you sure you want to start production?</value>
+  </data>
+  <data name="LOGIN_ERROR_TITLE" xml:space="preserve">
+    <value>Error: Invalid login</value>
+  </data>
+  <data name="PRODUCTION_ITEMS_LOG" xml:space="preserve">
+    <value>User: {0} | Screen: Production Validation | Action: Product {1} successfully validated</value>
+  </data>
+  <data name="USER_ACTION_LOG" xml:space="preserve">
+    <value>User: {0} | Screen: Production Validation | Action: {1}</value>
+  </data>
+  <data name="USER_CLICK_LOG" xml:space="preserve">
+    <value>User: {0} | Screen: Production Validation | Action: Clicked {1}</value>
+  </data>
+</root>

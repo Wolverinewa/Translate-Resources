@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FAIL_LOCK_MESSAGE" xml:space="preserve">
+    <value>¡Error al bloquear la etiqueta!</value>
+  </data>
+  <data name="FAIL_RECORD_MESSAGE" xml:space="preserve">
+    <value>¡Error al escribir la etiqueta!</value>
+  </data>
+  <data name="LOCK_RFID_TEXT_1" xml:space="preserve">
+    <value>RFID LOCK - Inicio del método RFID Lock</value>
+  </data>
+  <data name="LOCK_RFID_TEXT_2" xml:space="preserve">
+    <value>LOCK RFID - Fin del método de bloqueo RFID</value>
+  </data>
+  <data name="LOCK_RFID_TEXT_3" xml:space="preserve">
+    <value>BLOQUEO RFID - Dispositivo desconectado</value>
+  </data>
+  <data name="PING_DEVICE_TEXT_1" xml:space="preserve">
+    <value>Inicio del método</value>
+  </data>
+  <data name="PING_DEVICE_TEXT_2" xml:space="preserve">
+    <value>Fin del método - Estado de la conexión</value>
+  </data>
+  <data name="READ_RFID_TEXT_1" xml:space="preserve">
+    <value>LEER RFID - Inicio del método de lectura</value>
+  </data>
+  <data name="READ_RFID_TEXT_2" xml:space="preserve">
+    <value>LEER RFID - 3 intentos fallidos</value>
+  </data>
+  <data name="READ_RFID_TEXT_3" xml:space="preserve">
+    <value>LEER RFID - EPC Leer:</value>
+  </data>
+  <data name="READ_RFID_TEXT_4" xml:space="preserve">
+    <value>LEER RFID - Tiempo de espera</value>
+  </data>
+  <data name="READ_RFID_TEXT_5" xml:space="preserve">
+    <value>LEER RFID - Fin del método de lectura</value>
+  </data>
+  <data name="READ_RFID_TEXT_6" xml:space="preserve">
+    <value>LEER RFID - Error de lectura: Dispositivo RFID desconectado</value>
+  </data>
+  <data name="RECORD_RFID_ERROR_1" xml:space="preserve">
+    <value>REGISTRO RFID - Error de grabación:</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_1" xml:space="preserve">
+    <value>RECORD RFID - Inicio del método de registro</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_10" xml:space="preserve">
+    <value>ESCRIBIR RFID - Error de escritura: dispositivo RFID desconectado</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_11" xml:space="preserve">
+    <value>GRABAR RFID - Error de grabación: Tiempo de espera agotado | CPE:</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_2" xml:space="preserve">
+    <value>REGISTRAR RFID: el dispositivo RFID no respondió</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_3" xml:space="preserve">
+    <value>Intentar</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_4" xml:space="preserve">
+    <value>REGISTRO RFID - Intento</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_5" xml:space="preserve">
+    <value>Grabación de EPC</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_6" xml:space="preserve">
+    <value>fallido</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_7" xml:space="preserve">
+    <value>Grabación RFID - Grabación EPC</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_8" xml:space="preserve">
+    <value>Falló - Tiempo de espera agotado</value>
+  </data>
+  <data name="RECORD_RFID_TEXT_9" xml:space="preserve">
+    <value>RECORD RFID - Fin del método de grabación | CPE:</value>
+  </data>
+  <data name="SET_RFID_POWER_MESSAGE" xml:space="preserve">
+    <value>ESTABLECER {0} ENERGÍA RFID</value>
+  </data>
+  <data name="SET_RFID_POWER_TEXT_1" xml:space="preserve">
+    <value>CONFIGURAR POTENCIA DE LECTURA RFID - Método de inicio</value>
+  </data>
+  <data name="SET_RFID_POWER_TEXT_2" xml:space="preserve">
+    <value>ESTABLECER POTENCIA DE LECTURA RFID - Establecer potencia:</value>
+  </data>
+  <data name="SET_RFID_POWER_TEXT_3" xml:space="preserve">
+    <value>CONFIGURAR POTENCIA DE LECTURA RFID - Error: Dispositivo RFID desconectado</value>
+  </data>
+  <data name="SUCCESS_LOCK_MESSAGE" xml:space="preserve">
+    <value>¡Bloqueo de etiqueta exitoso!</value>
+  </data>
+  <data name="SUCCESS_RECORD_MESSAGE" xml:space="preserve">
+    <value>RECORD RFID - Grabación exitosa | CPE: {0}</value>
+  </data>
+</root>

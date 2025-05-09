@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CREATE_BACKUP_ERROR_1" xml:space="preserve">
+    <value>Error al crear una copia de seguridad sin cifrar</value>
+  </data>
+  <data name="CREATE_BACKUP_TEXT_1" xml:space="preserve">
+    <value>Permiso de usuario</value>
+  </data>
+  <data name="CREATE_BACKUP_TEXT_2" xml:space="preserve">
+    <value>Completado exitosamente</value>
+  </data>
+  <data name="CREATE_BACKUP_TEXT_3" xml:space="preserve">
+    <value>Error al otorgar permiso para realizar copias de seguridad en</value>
+  </data>
+  <data name="CREATE_BACKUP_TEXT_4" xml:space="preserve">
+    <value>Copia de seguridad sin cifrar creada correctamente el {0} - Usuario: {1}</value>
+  </data>
+  <data name="CREATE_BACKUP_TEXT_5" xml:space="preserve">
+    <value>Error al crear una copia de seguridad sin cifrar. Código</value>
+  </data>
+  <data name="CREATE_BACKUP_TEXT_6" xml:space="preserve">
+    <value>Mensaje de error</value>
+  </data>
+  <data name="CREATE_BACKUP_TEXT_7" xml:space="preserve">
+    <value>nulo</value>
+  </data>
+  <data name="CREATE_ENCRYPTED_BACKUP_ERROR_1" xml:space="preserve">
+    <value>Error al crear una copia de seguridad cifrada</value>
+  </data>
+  <data name="CREATE_ENCRYPTED_BACKUP_TEXT_1" xml:space="preserve">
+    <value>Iniciando la creación de una copia de seguridad cifrada - Usuario {0}</value>
+  </data>
+  <data name="CREATE_ENCRYPTED_BACKUP_TEXT_2" xml:space="preserve">
+    <value>Copia de seguridad creada correctamente: {0} - Usuario: {1}</value>
+  </data>
+  <data name="CREATE_ENCRYPTED_BACKUP_TEXT_3" xml:space="preserve">
+    <value>Copia de seguridad creada con éxito</value>
+  </data>
+  <data name="DENCRYPTED_BACKUP_TEXT_1" xml:space="preserve">
+    <value>Descifrado de la copia de seguridad</value>
+  </data>
+  <data name="DENCRYPTED_BACKUP_TEXT_2" xml:space="preserve">
+    <value>Copia de seguridad descifrada correctamente</value>
+  </data>
+  <data name="ENCRYPTED_BACKUP_TEXT_1" xml:space="preserve">
+    <value>Iniciando el cifrado de la copia de seguridad</value>
+  </data>
+  <data name="ENCRYPTED_BACKUP_TEXT_2" xml:space="preserve">
+    <value>Copia de seguridad cifrada realizada correctamente</value>
+  </data>
+  <data name="RESTORE_BACKUP_ERROR_1" xml:space="preserve">
+    <value>Error al restaurar la copia de seguridad</value>
+  </data>
+  <data name="RESTORE_BACKUP_TEXT_1" xml:space="preserve">
+    <value>Restaurando copia de seguridad</value>
+  </data>
+  <data name="RESTORE_BACKUP_TEXT_2" xml:space="preserve">
+    <value>Copia de seguridad restaurada con éxito</value>
+  </data>
+  <data name="RESTORE_ENCRYPTED_BACKUP_ERROR_1" xml:space="preserve">
+    <value>Error al restaurar la copia de seguridad cifrada</value>
+  </data>
+  <data name="RESTORE_ENCRYPTED_BACKUP_TEXT_1" xml:space="preserve">
+    <value>Iniciando restauración de copia de seguridad cifrada - Usuario: {0}</value>
+  </data>
+  <data name="RESTORE_ENCRYPTED_BACKUP_TEXT_2" xml:space="preserve">
+    <value>Copia de seguridad restaurada con éxito - Usuario: {0}</value>
+  </data>
+  <data name="RESTORE_ENCRYPTED_BACKUP_TEXT_3" xml:space="preserve">
+    <value>Copia de seguridad restaurada con éxito</value>
+  </data>
+  <data name="SET_DATABASE_SETTINGS_TEXT_1" xml:space="preserve">
+    <value>La configuración de conexión a la base de datos se adquirió correctamente</value>
+  </data>
+</root>

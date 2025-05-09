@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTION_ERROR_LOG" xml:space="preserve">
+    <value>Usuario: {0} | Pantalla: Configuración Dispositivos | Acción: {1} | Error: {2}</value>
+  </data>
+  <data name="BTN_SAVE_SETTINGS_TEXT_1" xml:space="preserve">
+    <value>en el botón Guardar</value>
+  </data>
+  <data name="CHK_LABEL_QUALITY_STATUS_1" xml:space="preserve">
+    <value>Desactivado</value>
+  </data>
+  <data name="CHK_LABEL_QUALITY_STATUS_2" xml:space="preserve">
+    <value>Activado</value>
+  </data>
+  <data name="CONFIG_TITLE_1" xml:space="preserve">
+    <value>Dispositivos - Configuraciones</value>
+  </data>
+  <data name="FORM_LOAD_ERROR_1" xml:space="preserve">
+    <value>Error al mostrar los datos del dispositivo en la pantalla de configuración.</value>
+  </data>
+  <data name="FORM_LOAD_TEXT_1" xml:space="preserve">
+    <value>Datos del dispositivo cargados en la pantalla de configuración.</value>
+  </data>
+  <data name="SAVE_PROCESS_ERROR_1" xml:space="preserve">
+    <value>Error al guardar la configuración del dispositivo</value>
+  </data>
+  <data name="SAVE_PROCESS_TEXT_1" xml:space="preserve">
+    <value>¡Los cambios se han guardado correctamente!\r\nReinicie el software para que los cambios surtan efecto.</value>
+  </data>
+  <data name="SAVE_PROCESS_TEXT_2" xml:space="preserve">
+    <value>Lector de validación</value>
+  </data>
+  <data name="SAVE_PROCESS_TEXT_3" xml:space="preserve">
+    <value>Lector de reprocesamiento</value>
+  </data>
+  <data name="SAVE_PROCESS_TEXT_4" xml:space="preserve">
+    <value>Lector de entrada</value>
+  </data>
+  <data name="SAVE_PROCESS_TEXT_5" xml:space="preserve">
+    <value>Impresora manual</value>
+  </data>
+  <data name="SAVE_PROCESS_TEXT_6" xml:space="preserve">
+    <value>Impresora aplicadora</value>
+  </data>
+  <data name="SAVE_PROCESS_TEXT_7" xml:space="preserve">
+    <value>SOCIEDAD ANÓNIMA</value>
+  </data>
+  <data name="USER_ACTION_LOG" xml:space="preserve">
+    <value>Usuario: {0} | Pantalla: Configuración Dispositivos | Acción: {1}</value>
+  </data>
+  <data name="USER_CLICK_LOG" xml:space="preserve">
+    <value>Usuario: {0} | Pantalla: Configuración Dispositivos | Acción: Se hizo clic en {1}</value>
+  </data>
+  <data name="USER_SAVED_SETTINGS_LOG" xml:space="preserve">
+    <value>Usuario: {0} | Pantalla: Configuración Dispositivos | Acción: Configuración del dispositivo guardada {1}</value>
+  </data>
+</root>

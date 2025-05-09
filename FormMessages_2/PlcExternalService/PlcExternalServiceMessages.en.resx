@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="APPLICATOR_PRESET_LOG" xml:space="preserve">
+    <value>Recipe submitted: Speed ​​{0}, Size {1}, Delay {2}, Accel Ramp {3}, Dec Ramp {4}, Filter {5}</value>
+  </data>
+  <data name="BOOL_VARIABLES_TEXT_1" xml:space="preserve">
+    <value>Life bit</value>
+  </data>
+  <data name="BOOL_VARIABLES_TEXT_10" xml:space="preserve">
+    <value>OUT sensor - cylinder</value>
+  </data>
+  <data name="BOOL_VARIABLES_TEXT_11" xml:space="preserve">
+    <value>Emergency applicator</value>
+  </data>
+  <data name="BOOL_VARIABLES_TEXT_12" xml:space="preserve">
+    <value>Printer failure</value>
+  </data>
+  <data name="BOOL_VARIABLES_TEXT_13" xml:space="preserve">
+    <value>Broken liner</value>
+  </data>
+  <data name="BOOL_VARIABLES_TEXT_14" xml:space="preserve">
+    <value>IN sensor out of position</value>
+  </data>
+  <data name="BOOL_VARIABLES_TEXT_15" xml:space="preserve">
+    <value>OUT sensor out of position</value>
+  </data>
+  <data name="BOOL_VARIABLES_TEXT_16" xml:space="preserve">
+    <value>Lack of Label</value>
+  </data>
+  <data name="BOOL_VARIABLES_TEXT_17" xml:space="preserve">
+    <value>Emergency button activated</value>
+  </data>
+  <data name="BOOL_VARIABLES_TEXT_2" xml:space="preserve">
+    <value>Open door</value>
+  </data>
+  <data name="BOOL_VARIABLES_TEXT_3" xml:space="preserve">
+    <value>Machine operating</value>
+  </data>
+  <data name="BOOL_VARIABLES_TEXT_4" xml:space="preserve">
+    <value>Equipment without compressed air</value>
+  </data>
+  <data name="BOOL_VARIABLES_TEXT_5" xml:space="preserve">
+    <value>Accumulation in the tailings</value>
+  </data>
+  <data name="BOOL_VARIABLES_TEXT_6" xml:space="preserve">
+    <value>Line Accumulation</value>
+  </data>
+  <data name="BOOL_VARIABLES_TEXT_7" xml:space="preserve">
+    <value>Application sensor</value>
+  </data>
+  <data name="BOOL_VARIABLES_TEXT_8" xml:space="preserve">
+    <value>Rewind sensor</value>
+  </data>
+  <data name="BOOL_VARIABLES_TEXT_9" xml:space="preserve">
+    <value>IN sensor - cylinder</value>
+  </data>
+  <data name="INPUT_REGISTERS_TEXT_1" xml:space="preserve">
+    <value>Applicator Speed</value>
+  </data>
+  <data name="INPUT_REGISTERS_TEXT_2" xml:space="preserve">
+    <value>Application Delay</value>
+  </data>
+  <data name="INPUT_REGISTERS_TEXT_3" xml:space="preserve">
+    <value>Rejection Delay</value>
+  </data>
+  <data name="PLC_CONNECTED_LOG" xml:space="preserve">
+    <value>Connected PLC</value>
+  </data>
+</root>

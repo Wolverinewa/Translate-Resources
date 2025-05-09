@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	
+	
+	<xs:schema id="root">
+		<xs:element name="root" ns1:IsDataSet="true">
+			<xs:complexType>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="data">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+								<xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+							</xs:sequence>
+							<xs:attribute name="name" type="xsd:string" ns1:Ordinal="1" />
+							<xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+							<xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="resheader">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+							</xs:sequence>
+							<xs:attribute name="name" type="xsd:string" use="required" />
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ACTION_ERROR_LOG" xml:space="preserve">
+		<value>User: {0} | Screen: Sample Printing | Action: {1} | Error: {2}</value>
+	</data>
+	<data name="BTN_FILTER_TEXT_1" xml:space="preserve">
+		<value>There is no suitability form selected</value>
+	</data>
+	<data name="BTN_FILTER_TEXT_2" xml:space="preserve">
+		<value>No data loaded</value>
+	</data>
+	<data name="BTN_FILTER_TEXT_4" xml:space="preserve">
+		<value>on the Filter button</value>
+	</data>
+	<data name="REPORT_LOG" xml:space="preserve">
+		<value>Sample Print - Start Date-Time: {1}, End Date-Time: {2} - User: {3}</value>
+	</data>
+	<data name="USER_ACTION_LOG" xml:space="preserve">
+		<value>User: {0} | Screen: Sample Printing | Action: {1}</value>
+	</data>
+	<data name="USER_CLICK_LOG" xml:space="preserve">
+		<value>User: {0} | Screen: Sample Print | Action: Clicked {1}</value>
+	</data>
+</root>

@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTION_ERROR_LOG" xml:space="preserve">
+    <value>User: {0} | Screen: Registration - Rejection Reason | Action: {1} | Error: {2}</value>
+  </data>
+  <data name="ALL_FIELDS_EMPTY_PLC_VARIABLE" xml:space="preserve">
+    <value>Fill in NAME and DESCRIPTION of at least one language</value>
+  </data>
+  <data name="ALREADY_ASSIGNED_PLC_VARIABLE" xml:space="preserve">
+    <value>There is already an enabled rejection reason linked to input {0}\r\nTo use this input, disable the other rejection reason that has this link.</value>
+  </data>
+  <data name="CHANGE_BINDED_VARIABLE" xml:space="preserve">
+    <value>Change linked entry</value>
+  </data>
+  <data name="CHANGE_DESCRIPTION_FIELD" xml:space="preserve">
+    <value>Changed description field: '{0}'</value>
+  </data>
+  <data name="CHANGE_EDIT_LANGUAGE" xml:space="preserve">
+    <value>Change language for editing</value>
+  </data>
+  <data name="CHANGE_NAME_FIELD" xml:space="preserve">
+    <value>Changed field name: '{0}'</value>
+  </data>
+  <data name="CLOSE_FORM" xml:space="preserve">
+    <value>Close screen</value>
+  </data>
+  <data name="CREATE_REGISTER" xml:space="preserve">
+    <value>Create new record</value>
+  </data>
+  <data name="CREATE_UPDATE_BASE_MESSAGE" xml:space="preserve">
+    <value>Save | {0}:\r\n{1}</value>
+  </data>
+  <data name="DISABLED_CONST" xml:space="preserve">
+    <value>INACTIVE</value>
+  </data>
+  <data name="DISPLAY_ONSCREEN_KEYBOARD" xml:space="preserve">
+    <value>Show virtual keyboard</value>
+  </data>
+  <data name="ENABLED_CONST" xml:space="preserve">
+    <value>ACTIVE</value>
+  </data>
+  <data name="FAIL_SAVE_MESSAGE" xml:space="preserve">
+    <value>Failed to save record</value>
+  </data>
+  <data name="FORM_LOADED" xml:space="preserve">
+    <value>Loaded screen</value>
+  </data>
+  <data name="LOADING_FORM" xml:space="preserve">
+    <value>Loading screen</value>
+  </data>
+  <data name="LOAD_CONTROLS" xml:space="preserve">
+    <value>Load data into screen controls</value>
+  </data>
+  <data name="LOAD_FORM" xml:space="preserve">
+    <value>Load screen</value>
+  </data>
+  <data name="POPULATE_LANGUAGE_COMBOBOX" xml:space="preserve">
+    <value>Load list in language selection combobox</value>
+  </data>
+  <data name="POPULATE_VARIABLE_COMBOBOX" xml:space="preserve">
+    <value>Load list into linked input selection combobox</value>
+  </data>
+  <data name="SAVE_MESSAGE_TITLE" xml:space="preserve">
+    <value>Save record</value>
+  </data>
+  <data name="SELECTED_BINDED_VARIABLE" xml:space="preserve">
+    <value>Changed linked entry: '{0}'</value>
+  </data>
+  <data name="SELECTED_EDIT_LANGUAGE" xml:space="preserve">
+    <value>Changed language for editing: '{0}' - '{1}'</value>
+  </data>
+  <data name="SUCCESSFUL_SAVE_MESSAGE" xml:space="preserve">
+    <value>Record saved successfully</value>
+  </data>
+  <data name="TOGGLE_ENABLED" xml:space="preserve">
+    <value>Change Enabled Status: {0}</value>
+  </data>
+  <data name="UPDATE_ENTITY_DESCRIPTION" xml:space="preserve">
+    <value>Update in-memory entity description dictionary</value>
+  </data>
+  <data name="UPDATE_ENTITY_NAME" xml:space="preserve">
+    <value>Update in-memory entity name dictionary</value>
+  </data>
+  <data name="UPDATE_REGISTER" xml:space="preserve">
+    <value>Updated record</value>
+  </data>
+  <data name="USER_ACTION_LOG" xml:space="preserve">
+    <value>User: {0} | Screen: Registration - Rejection Reason | Action: {1}</value>
+  </data>
+  <data name="USER_CLICK_LOG" xml:space="preserve">
+    <value>User: {0} | Screen: Registration - Reason for Rejection | Action: Clicked {1}</value>
+  </data>
+</root>

@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTION_ERROR_LOG" xml:space="preserve">
+    <value>User: {0} | Screen: Database Settings | Action: {1} | Error: {2}</value>
+  </data>
+  <data name="BTN_CREATE_BACKUP_ERROR_1" xml:space="preserve">
+    <value>Error trying to create encrypted backup</value>
+  </data>
+  <data name="BTN_CREATE_BACKUP_ERROR_2" xml:space="preserve">
+    <value>Create Encrypted Backup</value>
+  </data>
+  <data name="BTN_CREATE_BACKUP_TEXT_1" xml:space="preserve">
+    <value>Creating backup</value>
+  </data>
+  <data name="BTN_CREATE_BACKUP_TEXT_2" xml:space="preserve">
+    <value>Select a folder to save the encrypted backup</value>
+  </data>
+  <data name="BTN_CREATE_BACKUP_TEXT_3" xml:space="preserve">
+    <value>on the Create Encrypted Backup button</value>
+  </data>
+  <data name="BTN_DELETE_SETTINGS_TEXT_1" xml:space="preserve">
+    <value>on the Delete button</value>
+  </data>
+  <data name="BTN_DUMP_FOLDER_TEXT_1" xml:space="preserve">
+    <value>Select a folder to automatically save the encrypted backup</value>
+  </data>
+  <data name="BTN_DUMP_FOLDER_TEXT_2" xml:space="preserve">
+    <value>on the button to select automatic backup path</value>
+  </data>
+  <data name="BTN_RESTORE_DUMP_ERROR_1" xml:space="preserve">
+    <value>Error trying to restore encrypted backup</value>
+  </data>
+  <data name="BTN_RESTORE_DUMP_TEXT_3" xml:space="preserve">
+    <value>Restoring backup</value>
+  </data>
+  <data name="BTN_RESTORE_DUMP_TEXT_4" xml:space="preserve">
+    <value>Select a file to restore</value>
+  </data>
+  <data name="BTN_RESTORE_DUMP_TEXT_5" xml:space="preserve">
+    <value>Encrypted backups (*.encrypted)|*.encrypted</value>
+  </data>
+  <data name="BTN_RESTORE_DUMP_TEXT_6" xml:space="preserve">
+    <value>on the Restore Encrypted Backup button</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_ERROR_1" xml:space="preserve">
+    <value>Error saving Auto Backup settings</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_ERROR_2" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_ERROR_3" xml:space="preserve">
+    <value>Error saving automatic backup settings: The value</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_ERROR_4" xml:space="preserve">
+    <value>set as Automatic Backup Interval by user</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_ERROR_5" xml:space="preserve">
+    <value>is not an integer between 0 and 90</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_ERROR_6" xml:space="preserve">
+    <value>The backup interval must be an integer,\r\nbetween 1 and 90 (days)</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_ERROR_7" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_TEXT_1" xml:space="preserve">
+    <value>The changes have been saved successfully!\r\nPlease restart the software for the changes to take effect.</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_TEXT_2" xml:space="preserve">
+    <value>Automatic Backup</value>
+  </data>
+  <data name="BTN_SAVE_AUTO_DUMP_TEXT_3" xml:space="preserve">
+    <value>in the 'Save Settings' button of the 'Auto Backup' section</value>
+  </data>
+  <data name="BTN_SAVE_CONFIG_TEXT_1" xml:space="preserve">
+    <value>Save settings</value>
+  </data>
+  <data name="BTN_SAVE_CONFIG_TEXT_2" xml:space="preserve">
+    <value>on the Save button</value>
+  </data>
+  <data name="BTN_TEST_CONNECTION_ERROR_1" xml:space="preserve">
+    <value>Error trying to test database connection.</value>
+  </data>
+  <data name="BTN_TEST_CONNECTION_ERROR_2" xml:space="preserve">
+    <value>Test database connection</value>
+  </data>
+  <data name="BTN_TEST_CONNECTION_TEXT_1" xml:space="preserve">
+    <value>Problem trying to get database connection data</value>
+  </data>
+  <data name="BTN_TEST_CONNECTION_TEXT_2" xml:space="preserve">
+    <value>Problem trying to connect to the database</value>
+  </data>
+  <data name="BTN_TEST_CONNECTION_TEXT_3" xml:space="preserve">
+    <value>Database connection successful!</value>
+  </data>
+  <data name="BTN_TEST_CONNECTION_TEXT_4" xml:space="preserve">
+    <value>Database connection test completed successfully.</value>
+  </data>
+  <data name="BTN_TEST_CONNECTION_TEXT_5" xml:space="preserve">
+    <value>on the Test Connection button</value>
+  </data>
+  <data name="CHK_AUTO_DUMP_STATUS_1" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="CHK_AUTO_DUMP_STATUS_2" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="CONFIG_TITLE_1" xml:space="preserve">
+    <value>Database - Settings</value>
+  </data>
+  <data name="CONFIG_TITLE_2" xml:space="preserve">
+    <value>Restore Encrypted Backup</value>
+  </data>
+  <data name="CREATE_BACKUP_PROCESS_TEXT_1" xml:space="preserve">
+    <value>Created Encrypted Backup on the path</value>
+  </data>
+  <data name="CREATE_ENCRYPTED_BACKUP_DIALOG_PROMPT" xml:space="preserve">
+    <value>Do you want to create encrypted backup on {0}?</value>
+  </data>
+  <data name="CREATE_ENCRYPTED_BACKUP_DIALOG_TITLE" xml:space="preserve">
+    <value>Create encrypted backup</value>
+  </data>
+  <data name="FORM_LOAD_ERROR_1" xml:space="preserve">
+    <value>Error displaying device data on setup screen.</value>
+  </data>
+  <data name="FORM_LOAD_TEXT_1" xml:space="preserve">
+    <value>Device data loaded on the setup screen.</value>
+  </data>
+  <data name="IMPORT_BACKUP_PROCESS_TEXT_1" xml:space="preserve">
+    <value>Restored Encrypted Backup of the file</value>
+  </data>
+  <data name="MSGBOX_ACTION_LIMITED_ALLOWED" xml:space="preserve">
+    <value>Your access level [{0}] does not allow you to perform all actions on this form.</value>
+  </data>
+  <data name="MSGBOX_ACTION_NOT_ALLOWED" xml:space="preserve">
+    <value>Your access level [{0}] does not allow you to perform this action.</value>
+  </data>
+  <data name="MSGBOX_DELETE_DATA_ERROR_1" xml:space="preserve">
+    <value>Error trying to delete data from the database!</value>
+  </data>
+  <data name="MSGBOX_DELETE_DATA_ERROR_2" xml:space="preserve">
+    <value>Delete data by period</value>
+  </data>
+  <data name="MSGBOX_LOAD_DATA_ERROR" xml:space="preserve">
+    <value>Error trying to load configuration data from database!</value>
+  </data>
+  <data name="MSGBOX_SAVE_DATA_ERROR" xml:space="preserve">
+    <value>Error trying to write database configuration data!</value>
+  </data>
+  <data name="NETWORK_CONNCETION_ERROR_1" xml:space="preserve">
+    <value>Unable to get database connection data</value>
+  </data>
+  <data name="NETWORK_CONNCETION_ERROR_2" xml:space="preserve">
+    <value>Failed to get connection data</value>
+  </data>
+  <data name="RESTORE_ENCRYPTED_BACKUP_DIALOG_TITLE" xml:space="preserve">
+    <value>Restore encrypted backup</value>
+  </data>
+  <data name="SAVE_DEVICES_PROCESS_TEXT_1" xml:space="preserve">
+    <value>The changes have been saved successfully!\r\nPlease restart the software for the changes to take effect.</value>
+  </data>
+  <data name="USER_ACTION_LOG" xml:space="preserve">
+    <value>User: {0} | Screen: Database Settings | Action: {1}</value>
+  </data>
+  <data name="USER_CLICK_LOG" xml:space="preserve">
+    <value>User: {0} | Screen: Database Settings | Action: Clicked {1}</value>
+  </data>
+  <data name="USER_SAVED_SETTINGS_LOG" xml:space="preserve">
+    <value>User: {0} | Screen: Database Settings - Automatic Backup | Action: Saved settings: {1}</value>
+  </data>
+</root>
